@@ -193,7 +193,21 @@ class REST_API{
 
 
    /**
+    * Whether webhook data has a valid recurring reference (non-empty, not whitespace-only).
+    *
+    * @param object $args Payload data from get_payload_data()
+    * @return bool
+    */
+    public static function has_valid_recurring_reference($args) {
+      if (!isset($args->recurr_reference)) {
+         return false;
+      }
+      return is_string($args->recurr_reference) && trim($args->recurr_reference) !== '';
+   }
+
+   /**
     * Collects the recurring reference for a given order and webhook data.
+    * Updates both the order and parent subscription(s) with token and shopper ref (_cpay_ and _adn_).
     *
     * @param \WC_Order $order
     * @param object $args
@@ -203,19 +217,45 @@ class REST_API{
 
       $shopper_reference = $order->get_meta('_'.PREFIX.'_shopper_reference');
 
+      // Only use actual recurring reference; psp_reference is a payment ID, not a stored payment method ID
+      $recurr_reference = (is_string($args->recurr_reference) && trim($args->recurr_reference) !== '') ? trim($args->recurr_reference) : '';
+
+      // Update renewal order with token and shopper ref so both order AND subscription have tokens
+      if (!empty($recurr_reference)) {
+         $order->update_meta_data('_'.PREFIX.'_recurringDetailReference', $recurr_reference);
+         $order->update_meta_data('_cpay_recurringDetailReference', $recurr_reference);
+         $order->update_meta_data('_adn_recurringDetailReference', $recurr_reference);
+         if (!empty($shopper_reference)) {
+            $order->update_meta_data('_cpay_shopper_reference', $shopper_reference);
+            $order->update_meta_data('_adn_shopper_reference', $shopper_reference);
+         }
+         $order->save();
+      }
+
       foreach($args->subscription_ids as $sub_id){
 
-         $recurr_reference = empty($args->recurr_reference) ? $args->psp_reference : $args->recurr_reference;
+         if (empty($recurr_reference)) {
+            continue;
+         }
 
          $subscription = wc_get_order($sub_id);
+         if (!$subscription) {
+            continue;
+         }
+
          $subscription->update_meta_data('_'.PREFIX.'_recurringDetailReference', $recurr_reference);
+         $subscription->update_meta_data('_cpay_recurringDetailReference', $recurr_reference);
+         $subscription->update_meta_data('_adn_recurringDetailReference', $recurr_reference);
 
          if ( ! $subscription->meta_exists('_'.PREFIX.'_shopper_reference')) {
             $subscription->add_meta_data('_'.PREFIX.'_shopper_reference', $shopper_reference, true);
          }
+         if (!empty($shopper_reference)) {
+            $subscription->update_meta_data('_cpay_shopper_reference', $shopper_reference);
+            $subscription->update_meta_data('_adn_shopper_reference', $shopper_reference);
+         }
 
          $subscription->save();
-
       }
    }
 

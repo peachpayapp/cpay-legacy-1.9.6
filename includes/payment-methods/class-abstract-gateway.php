@@ -451,7 +451,19 @@ abstract class Abstract_Gateway extends \WC_Payment_Gateway{
          $order->save();
 
          $persisted_recurring_reference = apply_filters(PREFIX . '\renewal_subscription\recurring_reference', $subscription->get_meta('_' . PREFIX . '_recurringDetailReference'));
-         $recurring_reference = empty($persisted_recurring_reference) ? $this->get_renewal_payment_reference($shopper_reference) : $persisted_recurring_reference;
+         // Check for both empty and invalid (whitespace-only) tokens so we fetch from API when needed
+         $token_empty_or_invalid = ('' === $persisted_recurring_reference || (is_string($persisted_recurring_reference) && trim($persisted_recurring_reference) === ''));
+         if ($token_empty_or_invalid) {
+            $recurring_reference = $this->get_renewal_payment_reference($shopper_reference);
+            if (!empty($recurring_reference)) {
+               $subscription->update_meta_data('_' . PREFIX . '_recurringDetailReference', $recurring_reference);
+               $subscription->update_meta_data('_cpay_recurringDetailReference', $recurring_reference);
+               $subscription->update_meta_data('_adn_recurringDetailReference', $recurring_reference);
+               $subscription->save();
+            }
+         } else {
+            $recurring_reference = is_string($persisted_recurring_reference) ? trim($persisted_recurring_reference) : $persisted_recurring_reference;
+         }
 
          if(empty($recurring_reference)){
 
@@ -1082,33 +1094,32 @@ abstract class Abstract_Gateway extends \WC_Payment_Gateway{
     * @return string
     */
    protected function get_locale() {
-       return str_replace(['_informal', '_formal'], '', get_locale());
+      return str_replace(['_informal', '_formal'], '', get_locale());
    }
 
 
 
-   /**
-    * Get the recurring stored payment method reference for the subscription renewal
-    *
-    * @return string
-    */
-   public function get_renewal_payment_reference($shopper_reference) {
-      // Attempt to get the stored payment method for subscriptions payments made without an account, not logged in
-      $response = Request::POST([
-         'headers' => $this->api->headers(),
-         'body'    => json_encode([
-            'merchantAccount'  => $this->api->get_merchant(),
-            'shopperReference' => $shopper_reference,
-            'channel'          => 'Web',
-         ])
-      ])->send('https://api.convesiopay.com/payment/v1/wc-plugin/payment-methods');
+  /**
+   * Get the recurring stored payment method reference for the subscription renewal
+   *
+   * @return string
+   */
+  public function get_renewal_payment_reference($shopper_reference) {
+     // Attempt to get the stored payment method for subscriptions payments made without an account, not logged in
+     $response = Request::POST([
+        'headers' => $this->api->headers(),
+        'body'    => json_encode([
+           'merchantAccount'  => $this->api->get_merchant(),
+           'shopperReference' => $shopper_reference,
+           'channel'          => 'Web',
+        ])
+     ])->send('https://api.convesiopay.com/payment/v1/wc-plugin/payment-methods');
 
-      if ($response->status == 200) {
-         return $response->body->storedPaymentMethods[0]->id;
-      } else {
-         return '';
-      }
-   }
+     if ($response->status == 200 && !empty($response->body->storedPaymentMethods) && isset($response->body->storedPaymentMethods[0]->id)) {
+        return $response->body->storedPaymentMethods[0]->id;
+     }
+     return '';
+  }
 
 
 }

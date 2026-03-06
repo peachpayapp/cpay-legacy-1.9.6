@@ -227,8 +227,8 @@ class REST_API_Hook implements Interface_Hook{
 
                   }
 
-                  //in case we get the recurring reference
-                  if( ! empty($data->recurr_reference) ){
+                  // Update order and subscription tokens when we have a valid recurring reference
+                  if (REST_API::has_valid_recurring_reference($data)) {
                      REST_API::collect_recurring_reference($order, $data);
                   }
 
@@ -278,6 +278,11 @@ class REST_API_Hook implements Interface_Hook{
 
                   do_action(PREFIX . '\rest_api_hook\capture\payment_completed', $data, $order);
                   Order::payment_completed($order, $data->psp_reference, $data->subscription_ids, $data->payment_method);
+
+                  // Update order and subscription recurring token on CAPTURE so renewals have token when webhook only sends CAPTURE
+                  if ( ! empty($data->subscription_ids) && REST_API::has_valid_recurring_reference($data) ) {
+                     REST_API::collect_recurring_reference($order, $data);
+                  }
 
                }else{
 
