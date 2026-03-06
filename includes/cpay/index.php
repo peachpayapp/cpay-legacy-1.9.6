@@ -13,7 +13,11 @@ defined( 'ABSPATH' ) || exit;
 
 require_once DIR_PATH . '/includes/cpay/class-settings-hook-cpay.php';
 require_once DIR_PATH . '/includes/cpay/lib/stripe/stripe-loader.php';
-require_once DIR_PATH . '/includes/cpay/lib/stripe/init.php';
+
+// Only load Stripe SDK if it's not already loaded by another plugin
+if (!class_exists('\Stripe\Stripe')) {
+  require_once DIR_PATH . '/includes/cpay/lib/stripe/init.php';
+}
 // Authorize.net support removed - focusing on Stripe only for now
 
 require_once DIR_PATH . '/includes/cpay/migration/class-gateway-migration.php';

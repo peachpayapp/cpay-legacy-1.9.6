@@ -85,7 +85,7 @@ class Service_Util{
          $args['authorized'] = $api->is_configured();
       }
 
-      $response = Request::POST($args)->send('https://api-qa.convesiopay.com/payment/v1/wc-plugin/origin-keys');
+      $response = Request::POST($args)->send('https://api.convesiopay.com/payment/v1/wc-plugin/origin-keys');
 
       if($response->status == 200){
          $body = Util::obj_to_arr($response->body);

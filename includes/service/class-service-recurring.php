@@ -57,7 +57,7 @@ class Service_Recurring extends Service{
          'headers'    => $this->headers(),
          'body'       => json_encode($payload),
          'authorized' => $this->is_configured()
-      ])->send('https://api-qa.convesiopay.com/payment/v1/wc-plugin/list-recurring-details');
+      ])->send('https://api.convesiopay.com/payment/v1/wc-plugin/list-recurring-details');
 
       if($response->status == 200){
 
@@ -91,7 +91,7 @@ class Service_Recurring extends Service{
       return Request::POST([
          'headers' => $this->headers(),
          'body'    => json_encode($payload)
-      ])->send('https://api-qa.convesiopay.com/payment/v1/wc-plugin/disable');
+      ])->send('https://api.convesiopay.com/payment/v1/wc-plugin/disable');
 
    }
 
