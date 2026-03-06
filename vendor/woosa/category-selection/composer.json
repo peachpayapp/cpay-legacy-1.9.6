@@ -1,0 +1,8 @@
+{
+   "name": "woosa/category-selection",
+   "version": "1.0.3",
+   "type": "library",
+   "require": {
+      "woosa/util": "1.*"
+   }
+}

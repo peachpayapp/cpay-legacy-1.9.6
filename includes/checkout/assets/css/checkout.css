@@ -1,0 +1,194 @@
+.popup_content {
+  background: #fff; }
+  .popup_content h3 {
+    margin: 20px; }
+
+.adn-component {
+  position: relative;
+  min-width: 200px;
+  min-height: 60px;
+  padding: 20px;
+  z-index: 0;
+}
+  .adn-component img {
+    margin: auto; }
+
+.adn-component__text {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  text-align: center;
+  width: 100%;
+  margin-top: -20px;
+  z-index: -10;
+}
+
+.adn-wrap-form input[type=text],
+.adn-wrap-form input[type=number],
+.adn-wrap-form select {
+  width: 100%;
+  height: 40px;
+  box-shadow: none;
+  background: #fff;
+  border: 1px solid #b9c4c9;
+  border-radius: 6px;
+  color: #00112c; }
+  .adn-wrap-form input[type=text]:focus,
+  .adn-wrap-form input[type=number]:focus,
+  .adn-wrap-form select:focus {
+    outline: none; }
+
+.adn-installments-field {
+  display: none;
+  margin-top: 16px; }
+  .adn-installments-field label {
+    color: #00112c;
+    display: block;
+    font-size: .81em;
+    font-weight: 400;
+    line-height: 13px;
+    padding-bottom: 5px; }
+
+.payment_method_woosa_adyen_alipay img,
+.payment_method_woosa_adyen_wechatpay img,
+.payment_method_woosa_adyen_boleto img {
+  max-width: 40px; }
+
+#adn-googlepay-container .gpay-card-info-container {
+  height: 70px;
+}
+
+#adn-googlepay-container button {
+  width: 100%; }
+
+#adn-googlepay-container .googlepay-description {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  display: none; }
+
+.adyen-checkout__voucher-result__actions {
+  margin: 0;
+  list-style: none; }
+  .adyen-checkout__voucher-result__actions > li {
+    margin: 0 0 5px 0; }
+
+.adyen-checkout__button {
+  display: block; }
+
+.woocommerce-checkout #payment .adn-stored-cards {
+  border-radius: 7px;
+  border: 1px solid #ddd;
+  background: #fff; }
+  .woocommerce-checkout #payment .adn-stored-cards .adn-stored-card {
+    cursor: pointer;
+    border-bottom: 1px solid #ddd; }
+    .woocommerce-checkout #payment .adn-stored-cards .adn-stored-card .adn-stored-card__details {
+      padding: 15px 15px 15px 65px;
+      position: relative; }
+      .woocommerce-checkout #payment .adn-stored-cards .adn-stored-card .adn-stored-card__details span.dashicons,
+      .woocommerce-checkout #payment .adn-stored-cards .adn-stored-card .adn-stored-card__details img {
+        position: absolute;
+        left: 15px;
+        top: 15px;
+        margin: 0;
+        width: 40px; }
+      .woocommerce-checkout #payment .adn-stored-cards .adn-stored-card .adn-stored-card__details span.dashicons {
+        border: 0 !important;
+        font-size: 26px;
+        width: 30px;
+        line-height: 30px;
+        height: 30px; }
+    .woocommerce-checkout #payment .adn-stored-cards .adn-stored-card .adn-stored-card__fields {
+      padding: 15px; }
+    .woocommerce-checkout #payment .adn-stored-cards .adn-stored-card:last-child {
+      border-bottom: 0; }
+    .woocommerce-checkout #payment .adn-stored-cards .adn-stored-card.selected {
+      background: #f0f6ff; }
+
+.woocommerce-checkout .adn-stored-cards {
+  border-radius: 7px;
+  border: 1px solid #ddd;
+  background: #fff; }
+  .woocommerce-checkout .adn-stored-cards .adn-stored-card {
+    cursor: pointer;
+    border-bottom: 1px solid #ddd; }
+    .woocommerce-checkout .adn-stored-cards .adn-stored-card .adn-stored-card__details {
+      padding: 15px 15px 15px 65px;
+      position: relative; }
+      .woocommerce-checkout .adn-stored-cards .adn-stored-card .adn-stored-card__details span.dashicons,
+      .woocommerce-checkout .adn-stored-cards .adn-stored-card .adn-stored-card__details img {
+        position: absolute;
+        left: 15px;
+        top: 15px;
+        margin: 0;
+        width: 40px; }
+      .woocommerce-checkout .adn-stored-cards .adn-stored-card .adn-stored-card__details span.dashicons {
+        border: 0 !important;
+        font-size: 26px;
+        width: 30px;
+        line-height: 30px;
+        height: 30px; }
+    .woocommerce-checkout .adn-stored-cards .adn-stored-card .adn-stored-card__fields {
+      padding: 15px; }
+    .woocommerce-checkout .adn-stored-cards .adn-stored-card:last-child {
+      border-bottom: 0; }
+    .woocommerce-checkout .adn-stored-cards .adn-stored-card.selected {
+      background: #f0f6ff; }
+
+.woocommerce-checkout #payment ul.payment_methods li img.adyen-checkout__card__cardNumber__brandIcon {
+  position: absolute; }
+
+.woocommerce-checkout #payment .adn-payment-dropdown {
+  width: 100%;
+  height: 35px;
+  background-color: transparent;
+  height: 40px;
+  background: 0 0;
+  padding: 5px;
+  cursor: pointer; }
+
+.woocommerce-checkout ul.payment_methods li img.adyen-checkout__card__cardNumber__brandIcon {
+  position: absolute; }
+
+.woocommerce-checkout .adn-payment-dropdown {
+  width: 100%;
+  height: 35px;
+  background-color: transparent;
+  height: 40px;
+  background: 0 0;
+  padding: 5px;
+  cursor: pointer; }
+
+/* Apple Pay Auto-Submission Styles */
+.woocommerce-checkout .payment_method_woosa_adyen_applepay {
+   position: relative;
+}
+
+.woocommerce-checkout .payment_method_woosa_adyen_applepay.processing::after {
+   content: "Processing your Apple Pay payment...";
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background: rgba(255, 255, 255, 0.9);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-weight: 500;
+   color: #007cba;
+   z-index: 10;
+   border-radius: 4px;
+}
+
+.woocommerce-checkout #place_order.loading {
+   opacity: 0.6;
+   cursor: not-allowed;
+}
+
+/* Apple Pay button styling when processing */
+#applepay-container.processing {
+   opacity: 0.6;
+   pointer-events: none;
+}

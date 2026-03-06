@@ -1,0 +1,191 @@
+.adn-logs{
+   width: 100%;
+   box-sizing: border-box;
+}
+   .adn-logs__item{
+      position: relative;
+      border: 1px solid #ddd;
+      border-top-width: 4px;
+      background: #f5f5f5;
+      margin-bottom: 10px;
+      color: #757575;
+   }
+   .adn-logs__item--active{
+      background: #fff;
+   }
+   .adn-logs__item::before{
+      font-family: dashicons;
+      display: inline-block;
+      font-size: 20px;
+      position: absolute;
+      top: 10px;
+      left: 5px;
+   }
+
+   .adn-logs__item:last-child{
+      margin-bottom: 0;
+   }
+
+   .adn-logs__item--error{
+      border-color: #dc32326e;
+   }
+   .adn-logs__item--warning{
+      border-color: #ffb90073;
+   }
+   .adn-logs__item--info{
+      border-color: #00a0d278;
+   }
+
+
+
+.adn-log-message{
+   padding: 20px 10px;
+   border-top: 1px dashed #ddd;
+   border-bottom: 1px dashed #ddd;
+}
+
+
+
+.adn-log-meta{
+   padding: 10px;
+}
+   .adn-log-meta::after{
+      content: '';
+      display: table;
+      clear: both;
+   }
+
+   .adn-log-date,
+   .adn-log-path,
+   .adn-log-code{
+      font-size: 12px;
+   }
+
+   .adn-log-code{
+      line-height: 25px;
+   }
+
+   .adn-log-path{
+      font-size: 11px;
+      font-style: italic;
+      margin-bottom: 10px;
+   }
+
+   .adn-log-action{
+      opacity: 0.8;
+   }
+
+
+.adn-log-actions__left,
+.adn-log-meta__left{
+   float: left;
+   width: 50%;
+}
+
+.adn-log-actions__right,
+.adn-log-meta__right{
+   float: right;
+   width: 50%;
+   text-align: right;
+}
+
+
+
+.adn-log-actions{
+   margin-bottom: 10px;
+}
+   .adn-log-actions::after{
+      content: '';
+      display: table;
+      clear: both;
+   }
+
+
+
+.adn-logs__item--error{
+   border-color: #dc3232;
+}
+   .adn-logs__item--error.adn-log-type{
+      color: #dc3232;
+   }
+
+.adn-logs__item--warning{
+   border-color: #ffb900;
+}
+   .adn-logs__item--warning.adn-log-type{
+      color: #ffb900;
+   }
+
+.adn-logs__item--info{
+   border-color: #00a0d2;
+}
+   .adn-logs__item--info.adn-log-type{
+      color: #00a0d2;
+   }
+
+.adn-log-message{
+   color: #444;
+}
+
+.adn-log-action{
+   opacity: 1;
+}
+
+
+
+.adn-log-notification{
+   position: fixed;
+   z-index: 9999;
+   width: 300px;
+   left: 10px;
+   bottom: 10px;
+   background: #fff8e5;
+   padding: 15px;
+   margin: 0;
+   border: 1px solid #ffb900;
+   border-left-width: 4px;
+   box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+   .adn-log-notification__name{
+      font-weight: bold;
+      margin-bottom: 5px;
+   }
+
+   .adn-log-notification__close{
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      cursor: pointer;
+      color: #ffb900;
+   }
+
+   .adn-log-notification p{
+      margin: 0;
+      font-style: italic;
+   }
+
+
+.adn-action{
+   margin: 0 0 10px;
+   padding: 0 0 10px;
+   border-bottom: 1px solid #ddd;
+}
+
+.adn-style .adn-logs-table-wrap select,
+.adn-style .adn-logs-table-wrap input  {
+   width: auto !important;
+}
+
+.adn-style #log-viewer pre {
+   white-space: pre-wrap;
+   word-wrap: break-word;
+}
+
+.adn-style #log-viewer {
+   background: #fff;
+   border: 1px solid #e5e5e5;
+   box-shadow: 0 1px 1px rgba(0,0,0,.04);
+   padding: 5px 20px;
+   overflow: auto;
+   height: 800px;
+}

@@ -1,0 +1,1785 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Blank Pot v1.0.0\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2024-08-30 12:10+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Your Team <translations@example.com>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: src\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+"X-Poedit-SearchPathExcluded-2: *.min.js\n"
+"X-Poedit-SearchPathExcluded-3: dist\n"
+
+#: build/checkout-blocks-alipay.js:1
+#: includes/payment-methods/class-alipay.php:67
+msgid "ConvesioPay - Alipay"
+msgstr "ConvesioPay - Alipay"
+
+#: build/checkout-blocks-applepay.js:1
+#: includes/payment-methods/class-applepay.php:39
+msgid "ConvesioPay - Apple Pay"
+msgstr "ConvesioPay - Apple Pay"
+
+#: build/checkout-blocks-bancontact-mobile.js:1
+#: includes/payment-methods/class-bancontact-mobile.php:53
+msgid "ConvesioPay - Bancontact mobile"
+msgstr "ConvesioPay - Bancontact mobiel"
+
+#: build/checkout-blocks-bancontact.js:1
+#: includes/payment-methods/class-bancontact.php:53
+msgid "ConvesioPay - Bancontact"
+msgstr "ConvesioPay - Bancontact"
+
+#: build/checkout-blocks-blik.js:1 includes/payment-methods/class-blik.php:66
+msgid "ConvesioPay - BLIK"
+msgstr "ConvesioPay - BLIK"
+
+#: build/checkout-blocks-boleto.js:1
+msgid "CPF/CNPJ number are empty, please input it and try again"
+msgstr "Het CPF/CNPJ-nummer is leeg, voer het in en probeer het opnieuw"
+
+#: build/checkout-blocks-boleto.js:1
+#: includes/payment-methods/class-boleto.php:170
+msgid "CPF/CNPJ number"
+msgstr "CPF/CNPJ nummer"
+
+#: build/checkout-blocks-boleto.js:1
+#: includes/payment-methods/class-boleto.php:77
+msgid "ConvesioPay - Boleto"
+msgstr "ConvesioPay - Boleto"
+
+#: build/checkout-blocks-credit-card.js:1
+#: includes/payment-methods/class-credit-card.php:58
+msgid "ConvesioPay - Credit Card"
+msgstr "ConvesioPay - Creditcard"
+
+#: build/checkout-blocks-giropay.js:1
+#: includes/payment-methods/class-giropay.php:67
+msgid "ConvesioPay - Giropay"
+msgstr "ConvesioPay - Giropay"
+
+#: build/checkout-blocks-googlepay.js:1
+#: includes/payment-methods/class-googlepay.php:67
+msgid "ConvesioPay - Google Pay"
+msgstr "ConvesioPay - Google Pay"
+
+#: build/checkout-blocks-grabpay-my.js:1
+#: includes/payment-methods/class-grabpay-my.php:50
+msgid "ConvesioPay - GrabPay - Malaysia"
+msgstr "ConvesioPay - GrabPay - Maleisië"
+
+#: build/checkout-blocks-grabpay-ph.js:1
+#: includes/payment-methods/class-grabpay-ph.php:50
+msgid "ConvesioPay - GrabPay - Philippines"
+msgstr "ConvesioPay - GrabPay - Filippijnen"
+
+#: build/checkout-blocks-grabpay-sg.js:1
+#: includes/payment-methods/class-grabpay-sg.php:50
+msgid "ConvesioPay - GrabPay - Singapore"
+msgstr "ConvesioPay - GrabPay - Singapore"
+
+#: build/checkout-blocks-ideal.js:1 includes/payment-methods/class-ideal.php:84
+msgid "ConvesioPay - iDEAL"
+msgstr "ConvesioPay - iDEAL"
+
+#: build/checkout-blocks-klarna-account.js:1
+#: includes/payment-methods/class-klarna-account.php:90
+msgid "ConvesioPay - Klarna - Pay over time"
+msgstr "ConvesioPay - Klarna - Betaal in termijnen"
+
+#: build/checkout-blocks-klarna-paynow.js:1
+#: includes/payment-methods/class-klarna-paynow.php:71
+msgid "ConvesioPay - Klarna - Pay now"
+msgstr "ConvesioPay - Klarna - Nu betalen"
+
+#: build/checkout-blocks-klarna.js:1
+#: includes/payment-methods/class-klarna.php:115
+msgid "ConvesioPay - Klarna - Pay later"
+msgstr "ConvesioPay - Klarna - Achteraf betalen"
+
+#: build/checkout-blocks-mobilepay.js:1
+#: includes/payment-methods/class-mobilepay.php:57
+msgid "ConvesioPay - MobilePay"
+msgstr "ConvesioPay - MobilePay"
+
+#: build/checkout-blocks-molpay-ml.js:1
+#: includes/payment-methods/class-molpay-ml.php:50
+msgid "ConvesioPay - MOLPay - Malaysia"
+msgstr "ConvesioPay - MOLPay - Maleisië"
+
+#: build/checkout-blocks-molpay-th.js:1
+#: includes/payment-methods/class-molpay-th.php:51
+msgid "ConvesioPay - MOLPay - Thailand"
+msgstr "ConvesioPay - MOLPay - Thailand"
+
+#: build/checkout-blocks-online-banking-poland.js:1
+#: includes/payment-methods/class-online-banking-poland.php:65
+msgid "ConvesioPay - Online Banking PL"
+msgstr "ConvesioPay - Online Bankieren PL"
+
+#: build/checkout-blocks-paypal.js:1
+#: includes/payment-methods/class-paypal.php:55
+msgid "ConvesioPay - Paypal"
+msgstr "ConvesioPay - Paypal"
+
+#: build/checkout-blocks-sofort.js:1
+#: includes/payment-methods/class-sofort.php:88
+msgid "ConvesioPay - Sofort"
+msgstr "ConvesioPay - Sofort"
+
+#: build/checkout-blocks-swish.js:1 includes/payment-methods/class-swish.php:54
+msgid "ConvesioPay - Swish"
+msgstr "ConvesioPay - Swish"
+
+#: build/checkout-blocks-trustly.js:1
+#: includes/payment-methods/class-trustly.php:109
+msgid "ConvesioPay - Trustly"
+msgstr "ConvesioPay - Trustly"
+
+#: build/checkout-blocks-vipps.js:1 includes/payment-methods/class-vipps.php:77
+msgid "ConvesioPay - Vipps"
+msgstr "ConvesioPay - Vipps"
+
+#: build/checkout-blocks-wechatpay.js:1
+#: includes/payment-methods/class-wechatpay.php:53
+msgid "ConvesioPay - WeChat Pay"
+msgstr "ConvesioPay - WeChat Betalen"
+
+#: includes/authorization/class-authorization-hook.php:45
+msgid ""
+"No origin key found, please make sure you provided all the information below "
+"and hit the \"Save Changes\" button!"
+msgstr ""
+"Geen origin key gevonden, zorg ervoor dat je alle onderstaande informatie "
+"invult en druk op de knop \"Wijzigingen opslaan\"!"
+
+#: includes/authorization/class-authorization-hook.php:88
+msgid ""
+"Granting authorization has failed, please check if the credentials are "
+"correct."
+msgstr "De autorisatie is mislukt, controleer of de gegevens correct zijn."
+
+#: includes/authorization/templates/section-fields.php:19
+#, php-format
+msgid "%sOrigin domain & key:%s %s"
+msgstr "%sOrigin domain & key:%s %s"
+
+#: includes/authorization/templates/section-fields.php:23
+#, php-format
+msgid "%sHow can I get an API key ?%s"
+msgstr "%sHoe kom ik aan een API key?%s"
+
+#: includes/authorization/templates/section-fields.php:24
+#, php-format
+msgid "%sHow can I get a Live URL-prefix ?%s"
+msgstr "%sHoe krijg ik een Live URL-prefix?%s"
+
+#: includes/authorization/templates/section-fields.php:31
+#: includes/payment-methods/class-googlepay.php:382
+#: includes/payment-methods/class-paypal.php:121
+msgid "Test mode"
+msgstr "Testmodus"
+
+#: includes/authorization/templates/section-fields.php:32
+msgid "Whether or not to use the test environment"
+msgstr "Wel of niet gebruik maken van de testomgeving"
+
+#: includes/authorization/templates/section-fields.php:36
+#: includes/payment-methods/class-credit-card.php:554
+#: includes/payment-methods/class-credit-card.php:567
+#: vendor/woosa/field-generator/templates/fields/use_wc_price.php:22
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/authorization/templates/section-fields.php:37
+msgid "No"
+msgstr "Nee"
+
+#: includes/authorization/templates/section-fields.php:47
+msgid "Merchant account (LIVE)"
+msgstr "Merchant Account (LIVE)"
+
+#: includes/authorization/templates/section-fields.php:48
+msgid "The merchant account used in production environment."
+msgstr "De merchant account dat wordt gebruikt als de productieomgeving."
+
+#: includes/authorization/templates/section-fields.php:56
+msgid "API Key (LIVE)"
+msgstr "API Key (LIVE)"
+
+#: includes/authorization/templates/section-fields.php:57
+msgid "The API Key used in production environment."
+msgstr "De API key die wordt gebruikt in de productieomgeving."
+
+#: includes/authorization/templates/section-fields.php:65
+msgid "URL-prefix (LIVE)"
+msgstr "URL-prefix (LIVE)"
+
+#: includes/authorization/templates/section-fields.php:66
+msgid "Provide here the LIVE URL-prefix you have from Adyen."
+msgstr "Geef hier de LIVE URL-prefix die je van Adyen hebt."
+
+#: includes/authorization/templates/section-fields.php:79
+msgid "Merchant account (TEST)"
+msgstr "Merchant account (TEST)"
+
+#: includes/authorization/templates/section-fields.php:80
+msgid "The merchant account used in test environment."
+msgstr "De merchant account die wordt gebruikt in de testomgeving."
+
+#: includes/authorization/templates/section-fields.php:88
+msgid "API Key (TEST)"
+msgstr "API Key (TEST)"
+
+#: includes/authorization/templates/section-fields.php:89
+msgid "The API Key used in test environment."
+msgstr "De API Key die in de testomgeving wordt gebruikt."
+
+#: includes/checkout/class-checkout-hook-ajax.php:89
+msgid "Payment method parameter not provided!"
+msgstr "Parameter betalingsmethode niet opgegeven!"
+
+#: includes/checkout/class-checkout-hook-ajax.php:130
+msgid "Payment method not found!"
+msgstr "Betaalmethode niet gevonden!"
+
+#: includes/core/class-core-hook-ajax.php:55
+msgid "The payment has been successfully captured."
+msgstr "De betaling is met succes voltooid."
+
+#: includes/core/class-core-hook-assets.php:56
+msgid "Are you sure you want to remove this card?"
+msgstr "Weet je zeker dat je deze kaart wilt verwijderen?"
+
+#: includes/core/class-core-hook-assets.php:57
+msgid ""
+"Are you sure you want to remove your personal information attached to this "
+"order payment?"
+msgstr ""
+"Weet je zeker dat je je persoonlijke gegevens voor deze betaling wilt "
+"verwijderen?"
+
+#: includes/core/class-core-hook-assets.php:58
+#: includes/payment-methods/class-abstract-gateway.php:1011
+#: vendor/woosa/util/class-util-status.php:103
+#: vendor/woosa/util/class-util-status.php:108
+#: vendor/woosa/util/class-util.php:306 vendor/woosa/util/class-util.php:310
+msgid "Processing..."
+msgstr "Verwerken..."
+
+#: includes/core/class-core-hook-assets.php:59
+#: includes/payment-methods/class-credit-card.php:220
+msgid "Use a new card"
+msgstr "Gebruik een nieuwe kaart"
+
+#: includes/core/class-core-hook-assets.php:60
+msgid ""
+"Sorry it looks like Google token is not generated, please refresh the page "
+"and click on GPay button!"
+msgstr ""
+"Sorry, het lijkt erop dat het Google token niet is gegenereerd, vernieuw de "
+"pagina en klik op de GPay knop!"
+
+#: includes/core/class-core-hook-assets.php:106
+msgid "Are you sure you want to perform this action?"
+msgstr "Weet je zeker dat je deze actie wilt uitvoeren?"
+
+#: includes/country-selection/class-country-selection-hook-ajax.php:83
+msgid "Please select the shop and country you want to connect."
+msgstr "Selecteer de winkel en het land waarmee je verbinding wilt maken."
+
+#: includes/country-selection/class-country-selection-hook-ajax.php:94
+msgid "These shop and country are already connected."
+msgstr "Deze winkel en het land zijn al met elkaar verbonden."
+
+#: includes/country-selection/templates/list.php:23
+#: vendor/woosa/category-selection/templates/list.php:23
+msgid "Select"
+msgstr "Selecteer"
+
+#: includes/country-selection/templates/select/general.php:16
+#: vendor/woosa/category-selection/templates/select/general.php:16
+#: vendor/woosa/category-selection/templates/select/product.php:17
+#: vendor/woosa/field-generator/templates/fields/data-mapper.php:30
+#: vendor/woosa/field-generator/templates/fields/text.php:50
+msgid "Please select"
+msgstr "﻿Selecteer"
+
+#: includes/logger/class-logger-hook.php:42
+#, php-format
+msgid ""
+"The client key for %s is missing, please %sgo to this page%s to generate one."
+msgstr ""
+"De client key voor %s ontbreekt, ga %snaar deze pagina%s om er een te "
+"genereren."
+
+#: includes/my-account/class-my-account-hook-ajax.php:85
+msgid ""
+"The customer has removed the personal and payment data attached to this "
+"order payment in Adyen."
+msgstr ""
+"De klant heeft de persoonlijke en betalingsgegevens die aan deze "
+"orderbetaling in Adyen zijn gekoppeld verwijderd."
+
+#: includes/my-account/class-my-account-hook-ajax.php:92
+msgid "Something went wrong, please try again later or contact us."
+msgstr ""
+"Er is iets misgegaan. Probeer het later nog eens of neem contact met ons op."
+
+#: includes/my-account/class-my-account-hook-ajax.php:103
+msgid "Order not found."
+msgstr "Bestelling is niet gevonden."
+
+#: includes/my-account/class-my-account-hook.php:77
+msgid "Stored Cards"
+msgstr "Opgeslagen kaarten"
+
+#: includes/my-account/class-my-account-hook.php:99
+msgid "Stored Creditcards"
+msgstr "Opgeslagen creditcards"
+
+#: includes/my-account/class-my-account-hook.php:103
+msgid "There are not stored cards yet."
+msgstr "Er zijn nog geen opgeslagen kaarten."
+
+#: includes/my-account/class-my-account-hook.php:114
+#, php-format
+msgid "Expires: %s"
+msgstr "Verloopt: %s"
+
+#: includes/my-account/class-my-account-hook.php:116
+msgid "Remove this card"
+msgstr "Verwijder deze kaart"
+
+#: includes/order/class-order-hook.php:60
+msgid "Capture Payment"
+msgstr "Betaling vastleggen"
+
+#: includes/order/class-order-hook.php:61
+msgid ""
+"By pressing this button you will request Adyen to capture the payment for "
+"this order."
+msgstr ""
+"Door op deze knop te drukken vraagt u Adyen om de betaling voor deze "
+"bestelling vast te leggen."
+
+#: includes/order/class-order-hook.php:63
+msgid "Capture"
+msgstr "Leg vast"
+
+#: includes/order/class-order-hook.php:89
+msgid "General Data Protection Regulation (GDPR)"
+msgstr "General Data Protection Regulation (GDPR)"
+
+#: includes/order/class-order-hook.php:91
+msgid ""
+"The personal and payment information attached to this order have been "
+"removed."
+msgstr ""
+"De persoonlijke en betalingsgegevens die aan deze bestelling zijn gekoppeld, "
+"zijn verwijderd."
+
+#: includes/order/class-order-hook.php:93
+#, php-format
+msgid ""
+"This will erase your personal and payment information attached to this order "
+"according to %sGDPR%s."
+msgstr ""
+"Hierdoor worden uw persoonlijke en betalingsgegevens die aan deze bestelling "
+"zijn gekoppeld volgens %sGDPR%s gewist."
+
+#: includes/order/class-order-hook.php:95
+msgid "Yes remove"
+msgstr "Ja verwijderen"
+
+#: includes/order/class-order.php:92 includes/order/class-order.php:219
+#, php-format
+msgid "Order completed using %s ."
+msgstr "Bestelling voltooid met %s."
+
+#: includes/order/class-order.php:107
+#, php-format
+msgid "The payment failed due to: %s"
+msgstr "De betaling is mislukt vanwege: %s"
+
+#: includes/order/class-order.php:129
+#, php-format
+msgid "The payment did not succeed. Request response: %s"
+msgstr "De betaling is niet gelukt. Response van de aanvraag: %s"
+
+#: includes/payment-methods/class-abstract-gateway.php:125
+#: includes/payment-methods/class-klarna.php:234
+msgid "ANY"
+msgstr "ELKE"
+
+#: includes/payment-methods/class-abstract-gateway.php:135
+#, php-format
+msgid "%sSupported country:%s ANY"
+msgstr "%sOndersteund land:%s ANY"
+
+#: includes/payment-methods/class-abstract-gateway.php:135
+#, php-format
+msgid "%sSupported country:%s %s"
+msgstr "%sOndersteund land:%s %s"
+
+#: includes/payment-methods/class-abstract-gateway.php:445
+msgid "We could not found a valid recurring reference."
+msgstr "We konden geen geldige terugkerende referentie vinden."
+
+#: includes/payment-methods/class-abstract-gateway.php:510
+#, php-format
+msgid "Sorry you cannot refund payments captured via %s"
+msgstr "Sorry, je kunt geen betalingen terugbetalen die zijn vastgelegd via %s"
+
+#: includes/payment-methods/class-abstract-gateway.php:517
+msgid ""
+"Sorry you cannot refund this because the payment reference is invalid. "
+"Please try to refund it manually from ConvesioPay account."
+msgstr ""
+"Sorry, je kunt dit niet terugbetalen omdat de betalingsreferentie ongeldig "
+"is. Probeer het bedrag handmatig terug te storten via uw ConvesioPay account."
+
+#: includes/payment-methods/class-abstract-gateway.php:525
+#, php-format
+msgid ""
+"Sorry we cannot refund payments via %s. You have to do it manually from your "
+"ConvesioPay account."
+msgstr ""
+"Sorry, we kunnen betalingen niet terugbetalen via %s. U moet dit handmatig "
+"doen vanuit uw ConvesioPay account."
+
+#: includes/payment-methods/class-abstract-gateway.php:541
+msgid ""
+"Sorry, you cannot refund a partial amount because the transaction has not "
+"been captured yet but only cancel the entire payment"
+msgstr ""
+"Sorry, je kunt een gedeeltelijk bedrag niet terugbetalen omdat de transactie "
+"nog niet is vastgelegd, maar alleen de volledige betaling annuleert"
+
+#: includes/payment-methods/class-abstract-gateway.php:564
+#, php-format
+msgid "The refund did not succeed. Request response: %s"
+msgstr "De terugbetaling is niet gelukt. Response op aanvraag: %s"
+
+#: includes/payment-methods/class-abstract-gateway.php:596
+#: includes/payment-methods/class-googlepay.php:383
+#: includes/payment-methods/class-paypal.php:122
+msgid "Enable/Disable"
+msgstr "Inschakelen/Uitschakelen"
+
+#: includes/payment-methods/class-abstract-gateway.php:598
+#, php-format
+msgid "Enable %s"
+msgstr "%s inschakelen"
+
+#: includes/payment-methods/class-abstract-gateway.php:602
+msgid "Title"
+msgstr "Titel"
+
+#: includes/payment-methods/class-abstract-gateway.php:604
+msgid "The title which the user sees during checkout."
+msgstr "Dit bepaalt de titel die de gebruiker ziet tijdens het betalen."
+
+#: includes/payment-methods/class-abstract-gateway.php:608
+msgid "Description"
+msgstr "Omschrijving"
+
+#: includes/payment-methods/class-abstract-gateway.php:610
+msgid "The description which the user sees during checkout."
+msgstr ""
+"Dit bepaalt de beschrijving die de gebruiker ziet tijdens het afrekenen met "
+"IN3."
+
+#: includes/payment-methods/class-abstract-gateway.php:614
+msgid "Icon URL"
+msgstr "Icoon URL"
+
+#: includes/payment-methods/class-abstract-gateway.php:616
+msgid "The URL of the payment icon. Leave empty to use the default."
+msgstr ""
+"De URL van het betalingspictogram. Leeg laten om de standaard te gebruiken."
+
+#: includes/payment-methods/class-abstract-gateway.php:638
+#, php-format
+msgid ""
+"This payment method is not enabled in your ConvesioPay account. %sGo to my account."
+"%s"
+msgstr ""
+"Deze betaalmethode is niet ingeschakeld in uw ConvesioPay account. %sGa naar mijn "
+"account.%s"
+
+#: includes/payment-methods/class-abstract-gateway.php:645
+#, php-format
+msgid ""
+"%sNote:%s Please make sure you have removed the cache. %sGo to settings.%s"
+msgstr ""
+"%sOpmerking:%s Zorg ervoor dat je de cache hebt verwijderd. %sGa naar "
+"instellingen.%s"
+
+#: includes/payment-methods/class-abstract-gateway.php:672
+#, php-format
+msgid "Order completed using %s"
+msgstr "Bestelling voltooid met %s"
+
+#: includes/payment-methods/class-abstract-gateway.php:709
+msgid ""
+"Your payment was not successful. Please complete your order with a different "
+"payment method."
+msgstr ""
+"Je betaling is niet geslaagd. Rond je bestelling nogmaals af met een andere "
+"betaalmethode."
+
+#: includes/payment-methods/class-applepay.php:122
+msgid "Configuration"
+msgstr "Instellingen"
+
+#: includes/payment-methods/class-applepay.php:125
+#, php-format
+msgid "Download and unzip the %sAdyen's Apple Pay certificate%s"
+msgstr "Download en unzip het %sAdyen's Apple Pay certificaat%s"
+
+#: includes/payment-methods/class-applepay.php:128
+#, php-format
+msgid ""
+"Host the certificate file with the name %sapple-developer-merchantid-domain-"
+"association%s on each domain you want to use, including subdomains, under "
+"the following path: %s"
+msgstr ""
+"Host het certificaatbestand met de naam %sapple-developer-merchantid-domain-"
+"association%s op elk domein dat u wilt gebruiken, inclusief subdomeinen, "
+"onder het volgende pad: %s"
+
+#: includes/payment-methods/class-applepay.php:129
+msgid "The file must:"
+msgstr "Het bestand moet:"
+
+#: includes/payment-methods/class-applepay.php:131
+msgid "Be externally accessible."
+msgstr "Wees extern toegankelijk."
+
+#: includes/payment-methods/class-applepay.php:132
+msgid "Not be password protected."
+msgstr "Niet beveiligd zijn met een wachtwoord."
+
+#: includes/payment-methods/class-applepay.php:133
+msgid "The file cannot be behind a proxy or redirect."
+msgstr "Het bestand kan zich niet achter een proxy of redirect bevinden."
+
+#: includes/payment-methods/class-applepay.php:135
+#, php-format
+msgid "See an example of a %sworking certificate file.%s"
+msgstr "Bekijk een voorbeeld van een %swerkend certificaatbestand.%s"
+
+#: includes/payment-methods/class-applepay.php:138
+#, php-format
+msgid ""
+"%sAdd Apple Pay in your live Customer Area%s, where you will be asked for:"
+msgstr ""
+"%sVoeg Apple Pay toe in je live Customer Area%s, waar je wordt gevraagd om:"
+
+#: includes/payment-methods/class-applepay.php:140
+#, php-format
+msgid "your main website URL, for example %s."
+msgstr "uw hoofd URL van de website, bijvoorbeeld %s."
+
+#: includes/payment-methods/class-applepay.php:141
+#, php-format
+msgid ""
+"Add any other domains you use for your shop website, for example %s, or %s. "
+"You must register all top-level domains and subdomains."
+msgstr ""
+"Voeg eventuele andere domeinen toe die je gebruikt voor je shopwebsite, "
+"bijvoorbeeld %s, of %s. Je moet alle topleveldomeinen en subdomeinen "
+"registreren."
+
+#: includes/payment-methods/class-applepay.php:193
+msgid ""
+"Sorry it looks like Apple Pay token is not generated, please refresh the "
+"page and try again!"
+msgstr ""
+"Sorry, het lijkt erop dat de Apple Pay token niet is gegenereerd. Vernieuw "
+"de pagina en probeer het opnieuw!"
+
+#: includes/payment-methods/class-bancontact-mobile.php:189
+#, php-format
+msgid ""
+"With Bancontact mobile, the shopper completes the payment using the Payconiq "
+"by Bancontact mobile app or another bank app that supports Bancontact "
+"mobile, installed on their mobile device. %s"
+msgstr ""
+"Met Bancontact mobiel voert de shopper de betaling uit met behulp van de "
+"Payconiq by Bancontact mobile app of een andere bank app die Bancontact "
+"mobile ondersteunt, geïnstalleerd op hun mobiele apparaat. %s"
+
+#: includes/payment-methods/class-blik.php:155
+msgid "Please select your Blik code."
+msgstr "Selecteer je Blik code."
+
+#: includes/payment-methods/class-boleto.php:226
+msgid "Please specify the address."
+msgstr "Geef het adres op."
+
+#: includes/payment-methods/class-boleto.php:233
+msgid "CPF/CNPJ number is required."
+msgstr "CPF/CNPJ nummer is vereist."
+
+#: includes/payment-methods/class-boleto.php:238
+msgid "Please specify the house number in the address."
+msgstr "Geef het huisnummer op in het adres."
+
+#: includes/payment-methods/class-boleto.php:380
+msgid "Boleto Details"
+msgstr "Boleto-gegevens"
+
+#: includes/payment-methods/class-boleto.php:383
+msgid "Expiration Date"
+msgstr "Vervaldatum"
+
+#: includes/payment-methods/class-boleto.php:387
+msgid "Barcode"
+msgstr "Barcode"
+
+#: includes/payment-methods/class-boleto.php:391
+msgid "PDF file"
+msgstr "PDF bestand"
+
+#: includes/payment-methods/class-boleto.php:392
+msgid "Click to Download"
+msgstr "Klik om te downloaden"
+
+#: includes/payment-methods/class-boleto.php:436
+msgid "Set Notification"
+msgstr "Melding instellen"
+
+#: includes/payment-methods/class-boleto.php:439
+#, php-format
+msgid "Please make sure %s is aleady set in ConvesioPay account!"
+msgstr "Zorg ervoor dat %s al is ingesteld in het Adyen-account!"
+
+#: includes/payment-methods/class-credit-card.php:291
+msgid "Sorry, the number of installments seems invalid, please try again"
+msgstr "Sorry, het aantal termijnen lijkt ongeldig, probeer het opnieuw"
+
+#: includes/payment-methods/class-credit-card.php:299
+msgid "Please provide the CVC/CVV of the card."
+msgstr "Geef het CVC/CVV van de kaart."
+
+#: includes/payment-methods/class-credit-card.php:306
+msgid "Please provide the card number."
+msgstr "Geef het kaartnummer op."
+
+#: includes/payment-methods/class-credit-card.php:311
+msgid "Please provide the card expiration month."
+msgstr "Geef de vervaldmaand van de kaart op."
+
+#: includes/payment-methods/class-credit-card.php:316
+msgid "Please provide the card expiration year."
+msgstr "Geef het vervaldatum jaar van de kaart op."
+
+#: includes/payment-methods/class-credit-card.php:321
+msgid "Please provide the card holder name."
+msgstr "Geef de naam van de kaarthouder op."
+
+#: includes/payment-methods/class-credit-card.php:326
+msgid "Please provide your card security number (CVC)."
+msgstr "Geef uw kaartbeveiligingsnummer (CVC) op."
+
+#: includes/payment-methods/class-credit-card.php:524
+msgid ""
+"The transaction could not be processed! Either it was refused or an error "
+"has occurred! Please make sure you provide the valid card details or try "
+"with a different card."
+msgstr ""
+"De transactie kon niet worden verwerkt! De transactie is geweigerd of er is "
+"een fout opgetreden! Zorg ervoor dat u de geldige kaartgegevens invoert of "
+"probeer het met een andere kaart."
+
+#: includes/payment-methods/class-credit-card.php:553
+msgid "Allow Installments"
+msgstr "Termijnen toestaan"
+
+#: includes/payment-methods/class-credit-card.php:557
+msgid ""
+"Whether or not to allow installments. This is only for Brazil, Mexico and "
+"Turkey"
+msgstr ""
+"Wel of niet om termijnen toe te staan. Dit is alleen voor Brazilië, Mexico "
+"en Turkije"
+
+#: includes/payment-methods/class-credit-card.php:560
+msgid "Installments number"
+msgstr "Termijnennummer"
+
+#: includes/payment-methods/class-credit-card.php:563
+msgid "The maximum number for installments (default: 20)."
+msgstr "Het maximum aantal termijnen (standaard: 20)."
+
+#: includes/payment-methods/class-credit-card.php:566
+msgid "Require card holder name"
+msgstr "Naam kaarthouder vereisen"
+
+#: includes/payment-methods/class-credit-card.php:570
+msgid "When checked the card holder field is not required."
+msgstr "Indien aangevinkt is het kaarthouderveld niet vereist."
+
+#: includes/payment-methods/class-giropay.php:80
+#, php-format
+msgid ""
+"In order to support recurring payments with Giropay you have to enable SEPA "
+"Direct Debit first. %s"
+msgstr ""
+"Om terugkerende betalingen met Giropay te ondersteunen, moet je eerst SEPA "
+"Direct Debit inschakelen. %s"
+
+#: includes/payment-methods/class-googlepay.php:198
+msgid ""
+"Sorry it looks like Google token is not generated, please refresh the page "
+"and try again!"
+msgstr ""
+"Sorry het lijkt erop dat Google token niet is gegenereerd, vernieuw de "
+"pagina en probeer het opnieuw!"
+
+#: includes/payment-methods/class-googlepay.php:376
+#, php-format
+msgid ""
+"1. If you already have a Google Pay Developer Profile then navigate to your "
+"Profile and find your Google merchant ID otherwise you have to %srequest one "
+"here%s"
+msgstr ""
+"1. Als je al een Google Pay-ontwikkelaarsprofiel hebt, navigeer je naar jouw "
+"profiel en zoek je jouw Google-verkoper-ID anders dien je deze hier %saan te "
+"vragen%s"
+
+#: includes/payment-methods/class-googlepay.php:377
+msgid ""
+"2. Register your fully qualified domains that will invoke Google Pay API"
+msgstr ""
+"2. Registreer jouw volledig gekwalificeerde domeinen die gebruikmaken van "
+"Google Pay API"
+
+#: includes/payment-methods/class-googlepay.php:388
+msgid "Merchant Identifier"
+msgstr "Merchant-id"
+
+#: includes/payment-methods/class-grabpay.php:49
+msgid "ConvesioPay - GrabPay"
+msgstr "ConvesioPay - GrabPay"
+
+#: includes/payment-methods/class-grabpay.php:60
+#, php-format
+msgid ""
+"To pay with GrabPay, you redirect the shopper to the GrabPay login page from "
+"your website or app. The shopper authenticates using their phone number and "
+"a one-time password (OTP) that they received from Grab on their phone. %s"
+msgstr ""
+"Om met GrabPay te betalen, leidt u de shopper vanaf uw website of app door "
+"naar de inlogpagina van GrabPay. De shopper verifieert zich met zijn "
+"telefoonnummer en een eenmalig wachtwoord (OTP) dat hij van Grab op zijn "
+"telefoon heeft ontvangen. %s"
+
+#: includes/payment-methods/class-ideal.php:97
+#, php-format
+msgid ""
+"In order to support recurring payments with iDeal you have to enable SEPA "
+"Direct Debit first. %s"
+msgstr ""
+"Om terugkerende betalingen met iDeal te ondersteunen moet je eerst SEPA "
+"Direct Debit inschakelen. %s"
+
+#: includes/payment-methods/class-ideal.php:182
+#: includes/payment-methods/class-molpay.php:147
+msgid "Please select your bank account."
+msgstr "Selecteer uw bankrekening."
+
+#: includes/payment-methods/class-ideal.php:315
+msgid ""
+"The transaction could not be processed! Either it has been refused or an "
+"error has occurred! Please make sure you provide a valid bank account."
+msgstr ""
+"De transactie kon niet worden verwerkt! De transactie is geweigerd of er is "
+"een fout opgetreden! Zorg ervoor dat u een geldige bankrekening opgeeft."
+
+#: includes/payment-methods/class-klarna-account.php:104
+#, php-format
+msgid "Pay in installments over time. %s"
+msgstr "Betaal in termijnen na verloop van tijd. %s"
+
+#: includes/payment-methods/class-klarna-paynow.php:84
+#, php-format
+msgid ""
+"Pay the whole amount instantly, either by online banking or direct debit. %s"
+msgstr ""
+"Betaal het hele bedrag direct, via online bankieren of automatische incasso. "
+"%s"
+
+#: includes/payment-methods/class-klarna.php:129
+#, php-format
+msgid "Pay after the goods have been delivered. %s"
+msgstr "Betalen nadat de goederen zijn geleverd. %s"
+
+#: includes/payment-methods/class-klarna.php:247
+#, php-format
+msgid "%sSupported country for recurring payments:%s %s"
+msgstr "%sOndersteund land voor terugkerende betalingen:%s %s"
+
+#: includes/payment-methods/class-mobilepay.php:70
+#, php-format
+msgid ""
+"Before shoppers can use MobilePay, they have to install the MobilePay app on "
+"their mobile device, and link at least one card (Visa, Mastercard, or "
+"Dankort) to their MobilePay account. %s"
+msgstr ""
+"Voordat shoppers MobilePay kunnen gebruiken, moeten ze de MobilePay-app "
+"installeren op hun mobiele apparaat en ten minste één kaart (Visa, "
+"Mastercard of Dankort) koppelen aan hun MobilePay-account. %s"
+
+#: includes/payment-methods/class-molpay.php:53
+msgid "ConvesioPay - MOLPay"
+msgstr "ConvesioPay - MOLPay"
+
+#: includes/payment-methods/class-molpay.php:65
+#, php-format
+msgid ""
+"When making a MOLPay online banking payment, the shopper is redirected to "
+"their bank's website or app to complete the payment.  %s"
+msgstr ""
+"Bij een MOLPay-betaling via internetbankieren wordt de klant doorgestuurd "
+"naar de website of app van zijn bank om de betaling af te ronden.  %s"
+
+#: includes/payment-methods/class-online-banking-poland.php:76
+#, php-format
+msgid ""
+"When a shopper pays with Online banking Poland, they're presented with a "
+"list of issuing banks. After the shopper selects an issuing bank, they're "
+"redirected to the bank's website or mobile app to complete the payment. %s"
+msgstr ""
+"Wanneer een shopper betaalt met Online banking Polen, krijgt hij een lijst "
+"met uitgevende banken te zien. Nadat de shopper een uitgevende bank heeft "
+"geselecteerd, wordt hij doorgestuurd naar de website of mobiele app van de "
+"bank om de betaling af te ronden. %s"
+
+#: includes/payment-methods/class-paypal.php:144
+msgid "Configure PayPal API permissions"
+msgstr "PayPal API rechten configureren"
+
+#: includes/payment-methods/class-paypal.php:145
+msgid ""
+"To connect your PayPal account with your Adyen integration you need to grant "
+"permission to Adyen's API to integrate with your PayPal account."
+msgstr ""
+"Om uw PayPal account te verbinden met uw Adyen integratie moet u toestemming "
+"geven aan Adyen's API om te integreren met uw PayPal account."
+
+#: includes/payment-methods/class-paypal.php:148
+#, php-format
+msgid "Follow %sPayPal's instructions on granting third party permissions%s"
+msgstr ""
+"Volg de instructies van %sPayPal voor het verlenen van rechten aan derden%s"
+
+#: includes/payment-methods/class-paypal.php:151
+#, php-format
+msgid "Under %s, depending on your account type, enter:"
+msgstr "Voer onder %s, afhankelijk van je accounttype:"
+
+#: includes/payment-methods/class-paypal.php:153
+#: includes/payment-methods/class-paypal.php:154
+msgid "Enter"
+msgstr "Enter"
+
+#: includes/payment-methods/class-paypal.php:158
+#, php-format
+msgid "In the %s list, select the following boxes: "
+msgstr "Selecteer de volgende vakjes in de lijst %s: "
+
+#: includes/payment-methods/class-paypal.php:175
+#, php-format
+msgid "Click %s."
+msgstr "Klik op %s."
+
+#: includes/payment-methods/class-sepa-direct-debit.php:44
+msgid "ConvesioPay - SEPA Direct Debit"
+msgstr "ConvesioPay - SEPA Automatische Incasso"
+
+#: includes/payment-methods/class-sepa-direct-debit.php:56
+msgid ""
+"SEPA Direct Debit is used for recurring payments with WooCommerce "
+"Subscriptions, and will not be shown in the WooCommerce checkout."
+msgstr ""
+"SEPA Automatische Incasso wordt gebruikt voor terugkerende betalingen met "
+"WooCommerce abonnementen en wordt niet weergegeven in de WooCommerce "
+"checkout."
+
+#: includes/payment-methods/class-sofort.php:101
+#, php-format
+msgid ""
+"In order to support recurring payments with Sofort you have to enable SEPA "
+"Direct Debit first. %s"
+msgstr ""
+"Om terugkerende betalingen met Sofort te ondersteunen moet je eerst SEPA "
+"Direct Debit inschakelen. %s"
+
+#: includes/payment-methods/class-swish.php:66
+#, php-format
+msgid ""
+"Shoppers can pay with Swish when shopping online or in-store using our "
+"terminals. %s"
+msgstr ""
+"Shoppers kunnen met Swish betalen wanneer ze online of in de winkel winkelen "
+"met onze terminals. %s"
+
+#: includes/payment-methods/class-trustly.php:121
+#, php-format
+msgid ""
+"Shoppers can pay with Trustly when shopping online or in-store using our "
+"terminals. %s"
+msgstr ""
+"Shoppers kunnen met Trustly betalen wanneer ze online of in de winkel "
+"winkelen met onze terminals. %s"
+
+#: includes/payment-methods/class-vipps.php:89
+#, php-format
+msgid ""
+"To use Vipps, the shopper needs to have the Vipps app installed on their "
+"mobile device, and a card (either Visa or Mastercard) linked to their Vipps "
+"account. The shopper's account information is connected to their phone "
+"number. %s"
+msgstr ""
+"Om Vipps te gebruiken moet de shopper de Vipps-app op zijn mobiele apparaat "
+"geïnstalleerd hebben en een kaart (Visa of Mastercard) gekoppeld hebben aan "
+"zijn Vipps-account. De accountgegevens van de shopper zijn gekoppeld aan hun "
+"telefoonnummer. %s"
+
+#: includes/rest-api/class-rest-api-hook.php:137
+#: includes/rest-api/class-rest-api-hook.php:246
+#, php-format
+msgid "The payment amount of %s has been cancelled."
+msgstr "Het betalingsbedrag van %s is geannuleerd."
+
+#: includes/rest-api/class-rest-api-hook.php:151
+msgid "Waiting for customer to pay."
+msgstr "Wachten op de klant om te betalen."
+
+#: includes/rest-api/class-rest-api-hook.php:158
+#: includes/rest-api/class-rest-api-hook.php:229
+msgid "The payment could not be processed."
+msgstr "De betaling kon niet worden verwerkt."
+
+#: includes/rest-api/class-rest-api-hook.php:209
+msgid "Waiting for payment capture."
+msgstr "Wachten op het vastleggen van de betaling."
+
+#: includes/rest-api/class-rest-api-hook.php:254
+#, php-format
+msgid "The payment amount of %s could not be cancelled."
+msgstr "Het betalingsbedrag van %s kan niet worden geannuleerd."
+
+#: includes/rest-api/class-rest-api-hook.php:273
+#: includes/rest-api/class-rest-api-hook.php:282
+msgid "The payment capture has failed."
+msgstr "Het vastleggen van betaling is mislukt."
+
+#: includes/rest-api/class-rest-api-hook.php:298
+#: includes/rest-api/class-rest-api-hook.php:331
+#, php-format
+msgid "The payment amount of %s has been refunded."
+msgstr "Het bedrag van %s is terugbetaald."
+
+#: includes/rest-api/class-rest-api-hook.php:306
+#: includes/rest-api/class-rest-api-hook.php:318
+#, php-format
+msgid "Refunding the payment amount of %s has failed."
+msgstr "Het terugbetalen van het bedrag van %s is mislukt."
+
+#: includes/rest-api/class-rest-api-hook.php:339
+#, php-format
+msgid "Refunding the payment amount of %s could not be refunded."
+msgstr "Het terugbetalen van het bedrag van %s kan niet worden terugbetaald."
+
+#: includes/settings/class-settings-hook-dashboard.php:47
+msgid "Capture mode"
+msgstr "Capture modus"
+
+#: includes/settings/class-settings-hook-dashboard.php:53
+msgid "Immediate"
+msgstr "Onmiddellijk"
+
+#: includes/settings/class-settings-hook-dashboard.php:54
+msgid "With delay"
+msgstr "Met vertraging"
+
+#: includes/settings/class-settings-hook-dashboard.php:55
+msgid "Manual"
+msgstr "Handmatig"
+
+#: includes/settings/class-settings-hook-dashboard.php:59
+msgid "Reference prefix"
+msgstr "Referentie Prefix"
+
+#: includes/settings/class-settings-hook-dashboard.php:61
+msgid ""
+"Specify a prefix (unique per webshop) for the payment reference. NOTE: Use "
+"this option only if you have a multisite installation otherwise you can "
+"leave it empty."
+msgstr ""
+"Geef een prefix op (uniek per webshop) voor de betalingsreferentie. "
+"OPMERKING: Gebruik deze optie alleen als je een multisite-installatie hebt, "
+"anders kun je deze leeg laten."
+
+#: includes/settings/class-settings-hook-dashboard.php:66
+msgid "Capture Klarna payments automatically?"
+msgstr "Klarna betalingen automatisch vastleggen?"
+
+#: includes/settings/class-settings-hook-dashboard.php:67
+msgid ""
+"Before enable this you have to contact Adyen support to also set up "
+"automatic capture for Klarna payments."
+msgstr ""
+"Voordat u dit inschakelt, moet u contact opnemen met Adyen support om ook "
+"automatische vastlegging voor Klarna-betalingen in te stellen."
+
+#: includes/settings/class-settings-hook-dashboard.php:71
+msgid "Remove customer's data"
+msgstr "Klantgegevens verwijderen"
+
+#: includes/settings/class-settings-hook-dashboard.php:72
+#, php-format
+msgid ""
+"This allows your customers to remove their personal data (%s) attached to an "
+"order payment. This only deletes the customer-related data for the specific "
+"payment, but does not cancel the existing recurring transaction."
+msgstr ""
+"Hiermee kunnen je klanten hun persoonlijke gegevens (%s) verwijderen die aan "
+"een betaling zijn gekoppeld. Hiermee worden alleen de klantgerelateerde "
+"gegevens voor de specifieke betaling verwijderd, maar wordt de bestaande "
+"terugkerende transactie niet geannuleerd."
+
+#: includes/settings/class-settings-hook-dashboard.php:77
+msgid "Include server port"
+msgstr "Serverpoort opnemen"
+
+#: includes/settings/class-settings-hook-dashboard.php:78
+msgid ""
+"Generate the client key for the shop domain by including the server port as "
+"well."
+msgstr ""
+"Genereer de client key voor het winkeldomein door ook de server poort toe te "
+"voegen."
+
+#: includes/settings/class-settings-hook-dashboard.php:103
+msgid "NOTE: you have to enable this option in ConvesioPay account as well!"
+msgstr "OPMERKING: je moet deze optie ook inschakelen in het Adyen-account!"
+
+#: includes/settings/class-settings-hook-dashboard.php:104
+msgid "Manual: you need to explicitly request a capture for each payment."
+msgstr ""
+"Handmatig: je moet elke betaling expliciet vastleggen om de betaling "
+"definitief te maken."
+
+#: includes/settings/class-settings-hook-payments.php:35
+msgid "Payments"
+msgstr "Betalingen"
+
+#: includes/settings/class-settings-hook-payments.php:46
+msgid "Configure payments"
+msgstr "Betalingen configureren"
+
+#: includes/settings/class-settings-hook-stores.php:35
+msgid "Stores"
+msgstr "Winkels"
+
+#: includes/settings/class-settings-hook-stores.php:46
+msgid "Configure stores"
+msgstr "Winkels configureren"
+
+#: includes/settings/class-settings-hook-stores.php:118
+#: vendor/woosa/settings/class-module-settings-hook-dashboard.php:69
+#: vendor/woosa/settings/class-module-settings-hook.php:188
+msgid "Settings"
+msgstr "Instellingen"
+
+#: includes/settings/class-settings-hook-stores.php:123
+msgid "Country source"
+msgstr "Land bron"
+
+#: includes/settings/class-settings-hook-stores.php:126
+msgid ""
+"Define either the billing or shipping customer country to be used for "
+"identifying the corresponding store."
+msgstr ""
+"Definieer het land van de klant voor facturering of verzending dat moet "
+"worden gebruikt om de bijbehorende winkel te identificeren."
+
+#: includes/settings/class-settings-hook-stores.php:129
+msgid "Billing country"
+msgstr "Factuur land"
+
+#: includes/settings/class-settings-hook-stores.php:130
+msgid "Shipping country"
+msgstr "Verzending land"
+
+#: includes/settings/class-settings-hook-stores.php:142
+msgid "Store configuration"
+msgstr "Winkelconfiguratie"
+
+#: includes/settings/class-settings-hook-stores.php:143
+msgid "Define the stores you want to use based on the customer's country."
+msgstr ""
+"Definieer de winkels die je wilt gebruiken op basis van het land van de "
+"klant."
+
+#: includes/settings/class-settings-hook-webhooks.php:35
+msgid "Webhooks"
+msgstr "Webhooks"
+
+#: includes/settings/class-settings-hook-webhooks.php:46
+msgid "Setup Adyen webhooks"
+msgstr "Adyen webhooks instellen"
+
+#: includes/settings/class-settings-hook-webhooks.php:130
+msgid "Security"
+msgstr "Beveiliging"
+
+#: includes/settings/class-settings-hook-webhooks.php:135
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: includes/settings/class-settings-hook-webhooks.php:138
+msgid "Provide the username you set in authentication section (see step 6.)"
+msgstr ""
+"Geef de gebruikersnaam op die je in de authenticatie sectie hebt ingesteld "
+"(zie stap 5.)"
+
+#: includes/settings/class-settings-hook-webhooks.php:141
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: includes/settings/class-settings-hook-webhooks.php:144
+msgid "Provide the password you set in authentication section (see step 6.)"
+msgstr ""
+"Geef het wachtwoord op dat je hebt ingesteld in de verificatie sectie (zie "
+"stap 5.)"
+
+#: includes/settings/class-settings-hook-webhooks.php:147
+msgid "HMAC key"
+msgstr "HMAC key"
+
+#: includes/settings/class-settings-hook-webhooks.php:150
+msgid "Provide HMAC key the from the Customer Area"
+msgstr "Geef de HMAC key op vanuit de Customer Area"
+
+#: includes/settings/class-settings-hook-webhooks.php:201
+msgid "Standard notification"
+msgstr "Standaard notificatie"
+
+#: includes/settings/class-settings-hook-webhooks.php:203
+#: includes/settings/class-settings-hook-webhooks.php:223
+#, php-format
+msgid "Log in to your %s account to activate the webhooks"
+msgstr "Log in op uw %s account om de webhooks te activeren"
+
+#: includes/settings/class-settings-hook-webhooks.php:204
+#, php-format
+msgid "Then go to %s"
+msgstr "Ga dan naar %s"
+
+#: includes/settings/class-settings-hook-webhooks.php:205
+#: includes/settings/class-settings-hook-webhooks.php:225
+#, php-format
+msgid "On the Webhooks page, click %s at the top right of the screen."
+msgstr "Klik op de pagina Webhooks op %s rechtsboven in het scherm."
+
+#: includes/settings/class-settings-hook-webhooks.php:206
+#: includes/settings/class-settings-hook-webhooks.php:226
+#, php-format
+msgid "A screen will now appear, under the heading %s click on %s"
+msgstr "Er verschijnt nu een scherm, klik onder het kopje %s op %s"
+
+#: includes/settings/class-settings-hook-webhooks.php:208
+#: includes/settings/class-settings-hook-webhooks.php:228
+#, php-format
+msgid "Below %s, enter the following information:"
+msgstr "Voer onder %s de volgende informatie in:"
+
+#: includes/settings/class-settings-hook-webhooks.php:216
+#: includes/settings/class-settings-hook-webhooks.php:236
+#, php-format
+msgid "Below %s, enter a username and password of your choice."
+msgstr "Voer onder %s een gebruikersnaam en wachtwoord naar keuze in."
+
+#: includes/settings/class-settings-hook-webhooks.php:217
+#: includes/settings/class-settings-hook-webhooks.php:237
+#, php-format
+msgid "Click on the %s button"
+msgstr "Klik op de knop %s"
+
+#: includes/settings/class-settings-hook-webhooks.php:221
+msgid "Boleto Bancario pending"
+msgstr "Boleto Bancario in afwachting van"
+
+#: includes/settings/class-settings-hook-webhooks.php:224
+#, php-format
+msgid "Go to %s"
+msgstr "Ga naar %s"
+
+#: includes/settings/templates/stores-mapping-ui.php:21
+msgid "Adyen store"
+msgstr "Adyen winkel"
+
+#: includes/settings/templates/stores-mapping-ui.php:24
+msgid "Customer country"
+msgstr "Klant land"
+
+#: includes/settings/templates/stores-mapping-ui.php:27
+msgid "Action"
+msgstr "Actie"
+
+#: includes/settings/templates/stores-mapping-ui.php:33
+msgid "The store have been connected."
+msgstr "De winkel is aangesloten."
+
+#: includes/settings/templates/stores-mapping-ui.php:35
+msgid "The connected stores have been removed."
+msgstr "De gekoppelde winkels zijn verwijderd."
+
+#: includes/settings/templates/stores-mapping-ui.php:47
+msgid "Connect"
+msgstr "Verbinden"
+
+#: includes/settings/templates/stores-mapping-ui.php:66
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: includes/tools/class-tools-hook.php:43
+msgid "Generate client key"
+msgstr "Client key genereren"
+
+#: includes/tools/class-tools-hook.php:44
+msgid "This will generate a client key for the current domain."
+msgstr "Dit genereert een client key voor het huidige domein."
+
+#: vendor/woosa/authorization/class-module-authorization-hook-settings.php:35
+msgid "Authorization"
+msgstr "Authorisatie"
+
+#: vendor/woosa/authorization/class-module-authorization-hook-settings.php:46
+#, php-format
+msgid "Connect %s account"
+msgstr "Verbind %s account"
+
+#: vendor/woosa/authorization/class-module-authorization-hook-settings.php:127
+#, php-format
+msgid "%s Account"
+msgstr "%s Account"
+
+#: vendor/woosa/authorization/class-module-authorization-hook.php:79
+#, php-format
+msgid "You have to authorize the plugin. Please go to %sthis page%s."
+msgstr "Je moet de plugin autoriseren. Ga alsjeblieft naar %sdeze pagina%s."
+
+#: vendor/woosa/authorization/class-module-authorization.php:101
+#: vendor/woosa/authorization/class-module-authorization.php:280
+msgid "Unauthorized"
+msgstr "Niet-geautoriseerd"
+
+#: vendor/woosa/authorization/class-module-authorization.php:104
+#: vendor/woosa/authorization/class-module-authorization.php:273
+msgid "Authorized"
+msgstr "Geautoriseerd"
+
+#: vendor/woosa/authorization/class-module-authorization.php:236
+msgid "Status:"
+msgstr "Status:"
+
+#: vendor/woosa/authorization/class-module-authorization.php:239
+msgid "click to revoke"
+msgstr "klik om te herroepen"
+
+#: vendor/woosa/authorization/class-module-authorization.php:239
+msgid "click to authorize"
+msgstr "klik om te autoriseren"
+
+#: vendor/woosa/authorization/class-module-authorization.php:285
+msgid "Click to revoke"
+msgstr "Klik om te herroepen"
+
+#: vendor/woosa/authorization/class-module-authorization.php:285
+msgid "Click to authorize"
+msgstr "Klik om te machtigen"
+
+#: vendor/woosa/authorization/templates/authorization-ui.php:21
+#: vendor/woosa/license/templates/license-ui.php:24
+msgid "Status "
+msgstr "Status "
+
+#: vendor/woosa/authorization/templates/authorization-ui.php:28
+#, php-format
+msgid ""
+"Questions about the authorization of your ConvesioPay account? Read our %sHelp "
+"Center article%s, we will guide you step-by-step through the process."
+msgstr ""
+"Vragen over de autorisatie van uw ConvesioPay account? Lees ons %sHelp Center "
+"artikel%s, wij begeleiden u stap voor stap door het proces."
+
+#: vendor/woosa/dependency/class-module-dependency-hook.php:67
+#, php-format
+msgid ""
+"Your server %s should be at least %s seconds! Please get in touch with your "
+"hosting provider to increase that otherwise the plugin might not work "
+"properly."
+msgstr ""
+"Uw server %s moet minstens %s seconden zijn! Neem contact op met uw hosting "
+"provider om dat te verhogen anders werkt de plugin misschien niet goed."
+
+#: vendor/woosa/dependency/class-module-dependency.php:39
+#, php-format
+msgid "%sGo back.%s"
+msgstr "%sGa terug.%s"
+
+#: vendor/woosa/dependency/class-module-dependency.php:125
+#, php-format
+msgid "The server must have at least %s installed."
+msgstr "De server moet tenminste %s geïnstalleerd hebben."
+
+#: vendor/woosa/dependency/class-module-dependency.php:146
+#, php-format
+msgid "This plugin requires %s extension to be installed on the server."
+msgstr "Deze plugin vereist %s extensie te worden geïnstalleerd op de server."
+
+#: vendor/woosa/dependency/class-module-dependency.php:194
+#, php-format
+msgid "This plugin requires at least %s!"
+msgstr "Deze plugin vereist ten minste %s!"
+
+#: vendor/woosa/dependency/class-module-dependency.php:214
+#, php-format
+msgid "This plugin requires at least %s to be installed and active."
+msgstr "Deze plugin vereist minstens %s geïnstalleerd en actief te zijn."
+
+#: vendor/woosa/field-generator/templates/fields/data-mapper.php:14
+#: vendor/woosa/field-generator/templates/fields/field_value_source.php:51
+msgid "Product custom field"
+msgstr "Product custom field"
+
+#: vendor/woosa/field-generator/templates/fields/data-mapper.php:15
+#: vendor/woosa/field-generator/templates/fields/field_value_source.php:53
+msgid "Product attribute"
+msgstr "Product eigenschap"
+
+#: vendor/woosa/field-generator/templates/fields/data-mapper.php:38
+#: vendor/woosa/field-generator/templates/fields/field_value_source.php:56
+msgid "Specify the custom field name"
+msgstr "Geef de naam van het custom field op"
+
+#: vendor/woosa/field-generator/templates/fields/data-mapper.php:46
+#: vendor/woosa/field-generator/templates/fields/field_value_source.php:61
+msgid "Specify below the slug or name of the attribute."
+msgstr "Geef hieronder de slug of naam van het attribuut."
+
+#: vendor/woosa/field-generator/templates/fields/data-mapper.php:51
+#: vendor/woosa/field-generator/templates/fields/field_value_source.php:66
+msgid "only the first value of the attribute values will be used."
+msgstr "zal alleen de eerste waarde van de eigenschap worden gebruikt."
+
+#: vendor/woosa/field-generator/templates/fields/data-mapper.php:52
+#: vendor/woosa/field-generator/templates/fields/field_value_source.php:67
+msgid "it does not work for custom attributes and variable products."
+msgstr "het werkt niet voor custos eigenschappen en variabele producten."
+
+#: vendor/woosa/field-generator/templates/fields/field_value_source.php:50
+msgid "Default"
+msgstr "Standaard"
+
+#: vendor/woosa/field-generator/templates/fields/field_value_source.php:52
+msgid "Product SKU"
+msgstr "Product SKU"
+
+#: vendor/woosa/field-generator/templates/fields/onlyread.php:21
+msgid "No value available"
+msgstr "Geen waarde beschikbaar"
+
+#: vendor/woosa/field-generator/templates/fields/relative_date_selector.php:14
+msgid "Day(s)"
+msgstr "Dag(en)"
+
+#: vendor/woosa/field-generator/templates/fields/relative_date_selector.php:15
+msgid "Week(s)"
+msgstr "We(e)k(en)"
+
+#: vendor/woosa/field-generator/templates/fields/relative_date_selector.php:16
+msgid "Month(s)"
+msgstr "Maand(en)"
+
+#: vendor/woosa/field-generator/templates/fields/relative_date_selector.php:17
+msgid "Year(s)"
+msgstr "Ja(a)r(en)"
+
+#: vendor/woosa/field-generator/templates/fields/submit_button.php:17
+msgid "Save changes"
+msgstr "Wijzigingen opslaan"
+
+#: vendor/woosa/field-generator/templates/fields/use_wc_price.php:25
+msgid ""
+"Adjust the price (e.g. \"10\" for fixed amount or \"10%\" for percentage "
+"amount)"
+msgstr ""
+"Pas de prijs aan (b.v. \"10\" voor vast bedrag of \"10%\" voor een "
+"percentage)"
+
+#: vendor/woosa/license/class-module-license-hook-ajax.php:49
+msgid "Please provide a license key!"
+msgstr "Voer een licentiesleutel in!"
+
+#: vendor/woosa/license/class-module-license-hook-ajax.php:70
+msgid "This license could have not been activated."
+msgstr "De licentie kon niet worden geactiveerd."
+
+#: vendor/woosa/license/class-module-license-hook-ajax.php:95
+#, php-format
+msgid "A new update is available, please go to %sPlugins page%s and check."
+msgstr ""
+"Er is een nieuwe update beschikbaar, ga naar de %sPlugin pagina%s en "
+"controleer op beschikbare updates."
+
+#: vendor/woosa/license/class-module-license-hook-ajax.php:95
+msgid "No updates available, the plugin is already up to date."
+msgstr "Geen updates beschikbaar, de plug-in is al up-to-date."
+
+#: vendor/woosa/license/class-module-license-hook-ajax.php:108
+msgid "Invalid action provided."
+msgstr "Ongeldige actie opgegeven."
+
+#: vendor/woosa/license/class-module-license-hook-settings.php:71
+msgid "My Account"
+msgstr "Mijn Account"
+
+#: vendor/woosa/license/class-module-license-hook-settings.php:76
+msgid "License key"
+msgstr "Licentiesleutel"
+
+#: vendor/woosa/license/class-module-license-hook-settings.php:78
+#, php-format
+msgid ""
+"Fill in your Woosa license key below, to be able to receive plugin updates, "
+"product updates and order updates.\n"
+"                  Do you need more licenses? You can easily %srequest an "
+"upgrade of your subscription%s."
+msgstr ""
+"Vul hieronder je Woosa-licentiesleutel in om plugin-updates, productupdates "
+"en orderupdates te ontvangen.\n"
+"                  Heb je meer licenties nodig? Je kunt eenvoudig %seen "
+"upgrade van je abonnement aanvragen%s."
+
+#: vendor/woosa/license/class-module-license-hook-update.php:239
+msgid "Could not create Temporary file."
+msgstr "Kan het tijdelijke bestand niet aanmaken."
+
+#: vendor/woosa/license/class-module-license.php:385
+msgid "Active"
+msgstr "Actief"
+
+#: vendor/woosa/license/class-module-license.php:390
+msgid "Inactive"
+msgstr "Inactief"
+
+#: vendor/woosa/license/templates/license-ui.php:28
+msgid "Activations "
+msgstr "Activeringen "
+
+#: vendor/woosa/license/templates/license-ui.php:32
+msgid "License Key"
+msgstr "Licentiesleutel"
+
+#: vendor/woosa/license/templates/license-ui.php:34
+msgid "Deactivate"
+msgstr "Deactiveren"
+
+#: vendor/woosa/license/templates/license-ui.php:35
+msgid "Check for update"
+msgstr "Controleer op updates"
+
+#: vendor/woosa/license/templates/license-ui.php:37
+msgid "Activate"
+msgstr "Activeren"
+
+#: vendor/woosa/license/templates/warning-message.php:13
+#, php-format
+msgid "Your license for \"%s\" is not active."
+msgstr "Uw licentie voor “%s” is niet actief."
+
+#: vendor/woosa/license/templates/warning-message.php:16
+#, php-format
+msgid ""
+"This means you will not receive automatic plugin updates or support from our "
+"Support Specialists.\n"
+"      Please activate your Woosa license %shere%s or %sread where to find "
+"the license%s."
+msgstr ""
+"Dit betekent dat u geen automatische plugin-updates of ondersteuning van "
+"onze ondersteuningsspecialisten zult ontvangen.\n"
+"Activeer uw Woosa-licentie %shier%s of %slees waar u de licentie kunt "
+"vinden%s."
+
+#: vendor/woosa/logger/class-module-logger-hook-settings.php:51
+msgid "Logs"
+msgstr "Logs"
+
+#: vendor/woosa/logger/class-module-logger-hook-settings.php:62
+msgid "List of logs"
+msgstr "Lijst met logboeken"
+
+#: vendor/woosa/logger/class-module-logger-hook-settings.php:188
+msgid "Back to logs"
+msgstr "Terug naar logs"
+
+#: vendor/woosa/logger/class-module-logger-hook-settings.php:205
+msgid "Search"
+msgstr "Zoeken"
+
+#: vendor/woosa/logger/class-module-logger-hook.php:123
+#, php-format
+msgid "Cannot open <%s>\n"
+msgstr "Kan <%s> niet openen\n"
+
+#: vendor/woosa/logger/class-module-logger-hook.php:189
+#, php-format
+msgid "%1$s in %2$s on line %3$s"
+msgstr "%1$s in %2$s op regel %3$s"
+
+#: vendor/woosa/logger/class-module-logger-table.php:44
+msgid "Download"
+msgstr "Download"
+
+#: vendor/woosa/logger/class-module-logger-table.php:45
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: vendor/woosa/logger/class-module-logger-table.php:115
+msgid "Source"
+msgstr "Bron"
+
+#: vendor/woosa/logger/class-module-logger-table.php:116
+msgid "Date Created"
+msgstr "Datum aangemaakt"
+
+#: vendor/woosa/logger/class-module-logger-table.php:117
+msgid "File Size"
+msgstr "Bestandsgrootte"
+
+#: vendor/woosa/settings/class-module-settings-hook-ajax.php:64
+msgid "Changes have been saved successfully!"
+msgstr "De wijzigingen zijn met succes opgeslagen!"
+
+#: vendor/woosa/settings/class-module-settings-hook-dashboard.php:75
+msgid "Debug mode"
+msgstr "Debug modus"
+
+#: vendor/woosa/settings/class-module-settings-hook-dashboard.php:78
+msgid "Enable this if you want to see advanced logs."
+msgstr "Schakel dit in als je geavanceerde logs wilt zien."
+
+#: vendor/woosa/settings/class-module-settings-hook-dashboard.php:83
+msgid "Remove configuration"
+msgstr "Configuratie verwijderen"
+
+#: vendor/woosa/settings/class-module-settings-hook-dashboard.php:86
+msgid ""
+"Enable this if you want to remove the plugin configuration when is "
+"uninstalled."
+msgstr ""
+"Schakel dit in als je de pluginconfiguratie wilt verwijderen wanneer deze "
+"wordt verwijderd."
+
+#: vendor/woosa/settings/class-module-settings.php:60
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: vendor/woosa/settings/class-module-settings.php:61
+msgid "Licence and account"
+msgstr "Licentie en account"
+
+#: vendor/woosa/settings/templates/settings-page.php:20
+msgid "Woosa"
+msgstr "Woosa"
+
+#: vendor/woosa/tools/class-module-tools-hook-ajax.php:54
+msgid "The tool has been performed successfully."
+msgstr "De tool is met succes uitgevoerd."
+
+#: vendor/woosa/tools/class-module-tools-hook-settings.php:35
+msgid "Tools"
+msgstr "Tools"
+
+#: vendor/woosa/tools/class-module-tools-hook-settings.php:46
+#: vendor/woosa/tools/class-module-tools.php:38
+msgid "Clear cache"
+msgstr "Cache leegmaken"
+
+#: vendor/woosa/tools/class-module-tools.php:39
+msgid "This tool will clear the entire cache of the plugin."
+msgstr "Deze tool wist de volledige cache van de plugin."
+
+#: vendor/woosa/tools/templates/tools-ui.php:16
+msgid "IP list"
+msgstr "Woosa IP lijst"
+
+#: vendor/woosa/tools/templates/tools-ui.php:17
+msgid ""
+"In case your shop has some restrictions for inbound requests please "
+"whitelist our IPs:"
+msgstr ""
+"Als je shop beperkingen heeft voor inkomende verzoeken, kun je onze IP's "
+"whitelisten:"
+
+#: vendor/woosa/tools/templates/tools-ui.php:30
+msgid "Warning:"
+msgstr "Waarschuwing:"
+
+#: vendor/woosa/tools/templates/tools-ui.php:33
+msgid "Click to run"
+msgstr "Klik om te starten"
+
+#: vendor/woosa/util/class-util-file.php:57
+msgid ""
+"The remote file cannot be accessed, please try again or contact us if this "
+"problem still persists. Status: "
+msgstr ""
+"Het bestand op afstand kan niet worden geopend. Probeer het opnieuw of neem "
+"contact met ons op als dit probleem zich blijft voordoen. Status "
+
+#: vendor/woosa/util/class-util-file.php:71
+msgid "Unable to open file for writting at the followin location: "
+msgstr "Kan het bestand op de volgende locatie niet openen om te schrijven "
+
+#: vendor/woosa/util/class-util-file.php:100
+#, php-format
+msgid ""
+"File download process failed because the process takes longer than the "
+"server allows, please increase the PHP <code>max_execution_time</code> then "
+"try again, %sclick here%s for more details."
+msgstr ""
+"Het downloaden van bestanden is mislukt omdat het proces langer duurt dan de "
+"server toelaat, verhoog de PHP <code>max_execution_time</code> en probeer "
+"het dan opnieuw, %sklik hier%s voor meer details."
+
+#: vendor/woosa/util/class-util-file.php:115
+#: vendor/woosa/util/class-util-file.php:149
+#: vendor/woosa/util/class-util-file.php:164
+msgid ""
+"An error occured when download a remote file. For details check the log "
+"files."
+msgstr ""
+"Er is een fout opgetreden bij het downloaden van een bestand op afstand. "
+"Controleer de logbestanden voor details."
+
+#: vendor/woosa/util/class-util-status.php:93
+#: vendor/woosa/util/class-util.php:298
+msgid "Not published"
+msgstr "Niet gepubliceerd"
+
+#: vendor/woosa/util/class-util-status.php:98
+#: vendor/woosa/util/class-util.php:302
+msgid "Not available"
+msgstr "Niet beschikbaar"
+
+#: vendor/woosa/util/class-util-status.php:113
+#: vendor/woosa/util/class-util.php:315
+msgid "Open"
+msgstr "Open"
+
+#: vendor/woosa/util/class-util-status.php:118
+#: vendor/woosa/util/class-util.php:319
+msgid "Created"
+msgstr "Aangemaakt"
+
+#: vendor/woosa/util/class-util-status.php:123
+#: vendor/woosa/util/class-util.php:339
+msgid "Cancelled"
+msgstr "Geannuleerd"
+
+#: vendor/woosa/util/class-util-status.php:128
+#: vendor/woosa/util/class-util.php:323
+msgid "Processed"
+msgstr "Verwerkt"
+
+#: vendor/woosa/util/class-util-status.php:133
+msgid "Done"
+msgstr "Klaar"
+
+#: vendor/woosa/util/class-util-status.php:138
+#: vendor/woosa/util/class-util.php:327
+msgid "Registered"
+msgstr "Geregistreerd"
+
+#: vendor/woosa/util/class-util-status.php:143
+#: vendor/woosa/util/class-util.php:331
+msgid "Published"
+msgstr "Gepubliceerd"
+
+#: vendor/woosa/util/class-util-status.php:148
+#: vendor/woosa/util/class-util.php:335
+msgid "Paused"
+msgstr "Gepauzeerd"
+
+#: vendor/woosa/util/class-util-status.php:153
+#: vendor/woosa/util/class-util.php:343
+msgid "Error"
+msgstr "Fout"
+
+#: vendor/woosa/util/class-util.php:738
+msgid "processing..."
+msgstr "verwerken…"
+
+#: vendor/woosa/util/class-util.php:739
+msgid "saving..."
+msgstr "opslaan..."
+
+#, php-format
+#~ msgid "In the upper-right corner, select the %s button"
+#~ msgstr "Selecteer de knop %s in de rechterbovenhoek"
+
+#, php-format
+#~ msgid "Next to %s, click %s"
+#~ msgstr "Naast, %sklik op%s"
+
+#, php-format
+#~ msgid "Under %s, enter your server's:"
+#~ msgstr "Voer onder %s jouw server's in:"
+
+#, php-format
+#~ msgid ""
+#~ "In the %s section, enter a username and password that will be used to "
+#~ "authenticate Adyen notifications in your webshop."
+#~ msgstr ""
+#~ "Voer in de sectie %s een gebruikersnaam en wachtwoord in die zullen "
+#~ "worden gebruikt om Adyen-meldingen in uw webshop te authenticeren."
+
+#, php-format
+#~ msgid "Under %s make sure %s is checked."
+#~ msgstr "Controleer onder %s of %s is aangevinkt."
+
+#, php-format
+#~ msgid "Click %s"
+#~ msgstr "Klik op %s"
+
+#~ msgid "phonePrefix"
+#~ msgstr "telefoonPrefix"
+
+#~ msgid "phoneNumber"
+#~ msgstr "telefoonNummer"

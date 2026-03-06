@@ -1,0 +1,88 @@
+/*
+|--------------------------------------------------------------------------
+| TOGGLE FIELD
+|--------------------------------------------------------------------------
+*/
+.adn-style .toggle-wrap {
+   width: 25px;
+   height: 15px;
+   position: relative;
+   float: left;
+   margin-right: 7px;
+   margin-top: 3px;
+}
+
+.adn-style .form-table td fieldset .toggle-wrap label {
+   margin: 0!important;
+}
+
+/* Hide default HTML checkbox */
+.adn-style .toggle-wrap .checkbox {
+   opacity: 0;
+   width: 0;
+   height: 0;
+   position: absolute;
+}
+
+.adn-style .switch {
+   width: 100%;
+   height: 100%;
+   display: block;
+   background-color: #e5e5e5;
+   border-radius: 16px;
+   cursor: pointer;
+   transition: all 0.2s ease-out;
+}
+
+/* The slider */
+.adn-style .slider {
+   width: 15px;
+   height: 15px;
+   position: absolute;
+   left: calc(50% - 15px/2 - 5px);
+   top: calc(50% - 15px/2);
+   border-radius: 50%;
+   background: #FFFFFF;
+   box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15), 0px 3px 1px rgba(0, 0, 0, 0.06);
+   transition: all 0.2s ease-out;
+   cursor: pointer;
+}
+
+.adn-style .checkbox:checked + .switch {
+   background-color: #68BD6D;
+}
+
+.adn-style .checkbox:disabled + .switch {
+   opacity: 45%;
+}
+.adn-style .checkbox:checked:disabled + .switch {
+   opacity: 25%;
+}
+
+.adn-style .is-field-disabled,
+.adn-style .is-field-disabled label,
+.adn-style .is-field-disabled .slider{
+   opacity: 70%;
+   cursor: text;
+}
+
+.adn-style .checkbox:checked + .switch .slider {
+   left: calc(50% - 15px/2 + 5px);
+   top: calc(50% - 15px/2);
+}
+
+.adn-style fieldset {
+   position: relative;
+}
+
+.adn-style .toggle-info {
+   margin-left: 35px;
+}
+
+.adn-style .form-table td fieldset .toggle-info label {
+   margin: 0!important;
+}
+
+.adn-style .form-table th{
+   color: #3c434a;
+}

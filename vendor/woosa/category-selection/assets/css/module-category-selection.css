@@ -1,0 +1,34 @@
+.adn-cs-box{
+   display: inline-block;
+}
+
+
+.adn-cs-box .cs-list ul {
+   max-height: 400px;
+   width: 300px;
+   overflow: auto;
+   border: 1px solid #ddd;
+   padding: 0 10px;
+}
+   .adn-cs-box .cs-list ul li{
+      position: relative;
+      margin: 10px 0;
+   }
+
+.adn-cs-box .cs-select-item{
+   position: absolute;
+   top: 0;
+   right: 0;
+   height: 100%;
+   border-top-left-radius: 0;
+   border-bottom-left-radius: 0;
+}
+.adn-cs-box .cs-load-item{
+   white-space: break-spaces;
+   line-height: 17px;
+   padding: 5px 65px 5px 5px;
+}
+
+.adn-cs-box .cs-trail a:first-child{
+   text-decoration: none;
+}

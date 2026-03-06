@@ -1,0 +1,817 @@
+/*
+|--------------------------------------------------------------------------
+| WIDTH
+|--------------------------------------------------------------------------
+*/
+
+.adn-style .w-1000{
+   max-width: 1000px;
+   width: 100%;
+}
+.adn-style .w-800{
+   max-width: 800px;
+   width: 100%;
+}
+.adn-style .w-50p{
+   width: 50%;
+}
+
+
+
+/*
+|--------------------------------------------------------------------------
+| BACKGROUND COLOR
+|--------------------------------------------------------------------------
+*/
+
+.adn-style .bg-white{
+   background: #fff;
+   border: 1px solid #ddd;
+   box-sizing: border-box;
+}
+
+
+
+/*
+|--------------------------------------------------------------------------
+| PADDING
+|--------------------------------------------------------------------------
+*/
+
+/*All*/
+.adn-style .p-0{
+   padding: 0;
+}
+.adn-style .p-5{
+   padding: 5px;
+}
+.adn-style .p-10{
+   padding: 10px;
+}
+.adn-style .p-15{
+   padding: 15px;
+}
+.adn-style .p-20{
+   padding: 20px;
+}
+.adn-style .p-25{
+   padding: 25px;
+}
+.adn-style .p-30{
+   padding: 30px;
+}
+.adn-style .p-35{
+   padding: 35px;
+}
+.adn-style .p-40{
+   padding: 40px;
+}
+.adn-style .p-45{
+   padding: 45px;
+}
+.adn-style .p-50{
+   padding: 50px;
+}
+
+/*Top*/
+.adn-style .pt-0{
+   padding-top: 0;
+}
+.adn-style .pt-5{
+   padding-top: 5px;
+}
+.adn-style .pt-10{
+   padding-top: 10px;
+}
+.adn-style .pt-15{
+   padding-top: 15px;
+}
+.adn-style .pt-20{
+   padding-top: 20px;
+}
+.adn-style .pt-25{
+   padding-top: 25px;
+}
+.adn-style .pt-30{
+   padding-top: 30px;
+}
+.adn-style .pt-35{
+   padding-top: 35px;
+}
+.adn-style .pt-40{
+   padding-top: 40px;
+}
+.adn-style .pt-45{
+   padding-top: 45px;
+}
+.adn-style .pt-50{
+   padding-top: 50px;
+}
+
+/*Right*/
+.adn-style .pr-0{
+   padding-right: 0;
+}
+.adn-style .pr-5{
+   padding-right: 5px;
+}
+.adn-style .pr-10{
+   padding-right: 10px;
+}
+.adn-style .pr-15{
+   padding-right: 15px;
+}
+.adn-style .pr-20{
+   padding-right: 20px;
+}
+.adn-style .pr-25{
+   padding-right: 25px;
+}
+.adn-style .pr-30{
+   padding-right: 30px;
+}
+.adn-style .pr-35{
+   padding-right: 35px;
+}
+.adn-style .pr-40{
+   padding-right: 40px;
+}
+.adn-style .pr-45{
+   padding-right: 45px;
+}
+.adn-style .pr-50{
+   padding-right: 50px;
+}
+
+/*Bottom*/
+.adn-style .pb-0{
+   padding-bottom: 0;
+}
+.adn-style .pb-5{
+   padding-bottom: 5px;
+}
+.adn-style .pb-10{
+   padding-bottom: 10px;
+}
+.adn-style .pb-15{
+   padding-bottom: 15px;
+}
+.adn-style .pb-20{
+   padding-bottom: 20px;
+}
+.adn-style .pb-25{
+   padding-bottom: 25px;
+}
+.adn-style .pb-30{
+   padding-bottom: 30px;
+}
+.adn-style .pb-35{
+   padding-bottom: 35px;
+}
+.adn-style .pb-40{
+   padding-bottom: 40px;
+}
+.adn-style .pb-45{
+   padding-bottom: 45px;
+}
+.adn-style .pb-50{
+   padding-bottom: 50px;
+}
+
+/*Left*/
+.adn-style .pl-0{
+   padding-left: 0;
+}
+.adn-style .pl-5{
+   padding-left: 5px;
+}
+.adn-style .pl-10{
+   padding-left: 10px;
+}
+.adn-style .pl-15{
+   padding-left: 15px;
+}
+.adn-style .pl-20{
+   padding-left: 20px;
+}
+.adn-style .pl-25{
+   padding-left: 25px;
+}
+.adn-style .pl-30{
+   padding-left: 30px;
+}
+.adn-style .pl-35{
+   padding-left: 35px;
+}
+.adn-style .pl-40{
+   padding-left: 40px;
+}
+.adn-style .pl-45{
+   padding-left: 45px;
+}
+.adn-style .pl-50{
+   padding-left: 50px;
+}
+
+
+
+/*
+|--------------------------------------------------------------------------
+| MARGIN
+|--------------------------------------------------------------------------
+*/
+
+/*All*/
+.adn-style .m-0{
+   margin: 0;
+}
+.adn-style .m-5{
+   margin: 5px;
+}
+.adn-style .m-10{
+   margin: 10px;
+}
+.adn-style .m-15{
+   margin: 15px;
+}
+.adn-style .m-20{
+   margin: 20px;
+}
+.adn-style .m-25{
+   margin: 25px;
+}
+.adn-style .m-30{
+   margin: 30px;
+}
+.adn-style .m-35{
+   margin: 35px;
+}
+.adn-style .m-40{
+   margin: 40px;
+}
+.adn-style .m-45{
+   margin: 45px;
+}
+.adn-style .m-50{
+   margin: 50px;
+}
+
+/*Top*/
+.adn-style .mt-0{
+   margin-top: 0;
+}
+.adn-style .mt-10{
+   margin-top: 10px;
+}
+.adn-style .mt-15{
+   margin-top: 15px;
+}
+.adn-style .mt-20{
+   margin-top: 20px;
+}
+.adn-style .mt-25{
+   margin-top: 25px;
+}
+.adn-style .mt-30{
+   margin-top: 30px;
+}
+.adn-style .mt-35{
+   margin-top: 35px;
+}
+.adn-style .mt-40{
+   margin-top: 40px;
+}
+.adn-style .mt-45{
+   margin-top: 45px;
+}
+.adn-style .mt-50{
+   margin-top: 50px;
+}
+
+/*Right*/
+.adn-style .mr-0{
+   margin-right: 0;
+}
+.adn-style .mr-5{
+   margin-right: 5px;
+}
+.adn-style .mr-10{
+   margin-right: 10px;
+}
+.adn-style .mr-15{
+   margin-right: 15px;
+}
+.adn-style .mr-20{
+   margin-right: 20px;
+}
+.adn-style .mr-25{
+   margin-right: 25px;
+}
+.adn-style .mr-30{
+   margin-right: 30px;
+}
+.adn-style .mr-35{
+   margin-right: 35px;
+}
+.adn-style .mr-40{
+   margin-right: 40px;
+}
+.adn-style .mr-45{
+   margin-right: 45px;
+}
+.adn-style .mr-50{
+   margin-right: 50px;
+}
+
+/*Bottom*/
+.adn-style .mb-0{
+   margin-bottom: 0;
+}
+.adn-style .mb-5{
+   margin-bottom: 5px;
+}
+.adn-style .mb-10{
+   margin-bottom: 10px;
+}
+.adn-style .mb-15{
+   margin-bottom: 15px;
+}
+.adn-style .mb-20{
+   margin-bottom: 20px;
+}
+.adn-style .mb-25{
+   margin-bottom: 25px;
+}
+.adn-style .mb-30{
+   margin-bottom: 30px;
+}
+.adn-style .mb-35{
+   margin-bottom: 35px;
+}
+.adn-style .mb-40{
+   margin-bottom: 40px;
+}
+.adn-style .mb-45{
+   margin-bottom: 45px;
+}
+.adn-style .mb-50{
+   margin-bottom: 50px;
+}
+
+/*Left*/
+.adn-style .ml-0{
+   margin-left: 0;
+}
+.adn-style .ml-5{
+   margin-left: 5px;
+}
+.adn-style .ml-10{
+   margin-left: 10px;
+}
+.adn-style .ml-15{
+   margin-left: 15px;
+}
+.adn-style .ml-20{
+   margin-left: 20px;
+}
+.adn-style .ml-25{
+   margin-left: 25px;
+}
+.adn-style .ml-30{
+   margin-left: 30px;
+}
+.adn-style .ml-35{
+   margin-left: 35px;
+}
+.adn-style .ml-40{
+   margin-left: 40px;
+}
+.adn-style .ml-45{
+   margin-left: 45px;
+}
+.adn-style .ml-50{
+   margin-left: 50px;
+}
+
+
+
+/*
+|--------------------------------------------------------------------------
+| TABLE
+|--------------------------------------------------------------------------
+*/
+
+.adn-style .bc-c{
+   border-collapse: collapse;
+}
+
+
+
+/*
+|--------------------------------------------------------------------------
+| FIELDS
+|--------------------------------------------------------------------------
+*/
+
+.adn-style select,
+.adn-style input{
+   width: 100% !important;
+   max-width: 300px !important;
+}
+.adn-style input[type="radio"],
+.adn-style input[type="checkbox"]{
+   width: 1rem !important;
+}
+
+
+
+/*
+|--------------------------------------------------------------------------
+| PAGINATION
+|--------------------------------------------------------------------------
+*/
+
+.adn-style .pagination{
+   margin: 10px 0;
+   padding: 0;
+}
+   .adn-style .pagination li{
+      display: inline;
+   }
+
+
+
+/*
+|--------------------------------------------------------------------------
+| BORDER
+|--------------------------------------------------------------------------
+*/
+
+.adn-style .bt-1{
+   border-top: 1px solid #ddd;
+}
+.adn-style .br-1{
+   border-right: 1px solid #ddd;
+}
+.adn-style .bb-1{
+   border-bottom: 1px solid #ddd;
+}
+.adn-style .bl-1{
+   border-left: 1px solid #ddd;
+}
+
+
+
+/*
+|--------------------------------------------------------------------------
+| VERTICAL-ALIGNMENT
+|--------------------------------------------------------------------------
+*/
+
+.adn-style .va-t{
+   vertical-align: top;
+}
+.adn-style .va-m{
+   vertical-align: middle;
+}
+.adn-style .va-b{
+   vertical-align: bottom;
+}
+
+
+
+/*
+|--------------------------------------------------------------------------
+| TEXT-ALIGNMENT
+|--------------------------------------------------------------------------
+*/
+
+.adn-style .ta-l{
+   text-align: left;
+}
+.adn-style .ta-c{
+   text-align: center;
+}
+.adn-style .ta-r{
+   text-align: right;
+}
+.adn-style .ta-i{
+   text-align: inherit;
+}
+
+
+
+/*
+|--------------------------------------------------------------------------
+| TEXT-TRANSFORM
+|--------------------------------------------------------------------------
+*/
+.adn-style .tt-u{
+    text-transform: uppercase;
+}
+
+.adn-style .tt-c{
+    text-transform: capitalize;
+}
+
+.adn-style .tt-l{
+    text-transform: lowercase;
+}
+
+
+
+/*
+|--------------------------------------------------------------------------
+| SVG-ICONS
+|--------------------------------------------------------------------------
+*/
+.adn-style .icon-small svg{
+   width: 12px;
+}
+
+
+
+/*
+|--------------------------------------------------------------------------
+| TEXT-STYLE
+|--------------------------------------------------------------------------
+*/
+.adn-style .tb{
+   font-weight: 700;
+}
+
+
+
+/*
+|--------------------------------------------------------------------------
+| ALERT BOX
+|--------------------------------------------------------------------------
+*/
+
+.adn-style .alertbox{
+   padding: 15px;
+   clear: both;
+   border-width: 1px;
+   border-style: solid;
+   border-radius: 3px;
+}
+   .adn-style .alertbox h3,
+   .adn-style .alertbox h2{
+      border: 0 !important;
+      padding: 0 !important;
+      margin: 0 0 10px 0 !important;
+   }
+
+   .adn-style .alertbox ul{
+      margin: 0 0 0 20px;
+   }
+      .adn-style .alertbox ul li{
+         list-style: disc;
+         margin: 0;
+      }
+         .adn-style .alertbox ul li > ul li{
+            list-style: square;
+         }
+
+   .adn-style .alertbox table{
+      width:100%;
+      border-collapse: collapse;
+   }
+      .adn-style .alertbox table th{
+         text-align: left;
+      }
+
+.adn-style .alertbox--red{
+   color: #721c24;
+   background-color: #fae8ea;
+   border-color: #f5c6cb;
+}
+   .adn-style .alertbox--red > * {
+      color: #721c24 !important;
+   }
+
+   .adn-style .alertbox--red table th,
+   .adn-style .alertbox--red table td{
+      border: 1px solid #f5c6cb;
+   }
+
+.adn-style .alertbox--yellow{
+   color: #eba900;
+   background-color: #fefaf2;
+   border-color: #f9e5b5;
+}
+   .adn-style .alertbox--yellow > * {
+      color: #eba900 !important;
+   }
+
+   .adn-style .alertbox--yellow table th,
+   .adn-style .alertbox--yellow table td{
+      border: 1px solid #f9e5b5;
+   }
+
+.adn-style .alertbox--blue{
+   color: #004085;
+   background-color: #d7ebff;
+   border-color: #b8daff;
+}
+   .adn-style .alertbox--blue > * {
+      color: #004085 !important;
+   }
+
+   .adn-style .alertbox--blue table th,
+   .adn-style .alertbox--blue table td{
+      border: 1px solid #b8daff;
+   }
+
+.adn-style .alertbox--green{
+   color: #155724;
+   background-color: #ddf6e3;
+   border-color: #c3e6cb;
+}
+   .adn-style .alertbox--green > * {
+      color: #155724 !important;
+   }
+
+   .adn-style .alertbox--blue table th,
+   .adn-style .alertbox--blue table td{
+      border: 1px solid #c3e6cb;
+   }
+
+
+
+/*
+|--------------------------------------------------------------------------
+| SORTABLE
+|--------------------------------------------------------------------------
+*/
+
+.adn-style .sortable-list .ui-sortable-placeholder{
+   height: 50px;
+}
+
+.adn-style .sortable-list__item{
+   border: 1px solid #ddd;
+   padding: 10px 10px 10px 40px;
+   cursor: move;
+   background: #fbfbfb;
+   position: relative;
+}
+
+   .adn-style .sortable-list__item .dashicons{
+      position: absolute;
+      left: 5px;
+      top: 10px;
+      color: #8f8f8f;
+   }
+
+   .adn-style .sortable-list__item:hover{
+      background: #f6faff;
+   }
+
+   .adn-style .sortable-list__item-name{
+      font-weight: bold;
+      margin-bottom: 10px;
+   }
+   .adn-style .sortable-list__item-info{
+      font-size: 12px;
+      font-style: italic;
+      color: #8f8f8f;
+   }
+
+
+
+
+/*
+|--------------------------------------------------------------------------
+| TAB LIST
+|--------------------------------------------------------------------------
+*/
+
+.adn-tab-wrapper .nav-tab{
+   cursor: pointer;
+}
+
+   .adn-tab-wrapper .nav-tab > .dashicons{
+      line-height: 26px;
+      height: 24px;
+   }
+
+.adn-tab-wrapper .nav-tab-active,
+.adn-tab-wrapper .nav-tab-active:focus,
+.adn-tab-wrapper .nav-tab-active:focus:active,
+.adn-tab-wrapper .nav-tab-active:hover {
+   border-bottom: 1px solid #ffffff;
+   background: #ffffff;
+}
+
+.adn-panel-wrapper .adn-panel{
+   display: none;
+   padding: 15px 0 0;
+}
+   .adn-panel-wrapper .adn-panel.adn-panel--active{
+      display: block;
+   }
+
+
+
+
+/*
+|--------------------------------------------------------------------------
+| TIP ICONS
+|--------------------------------------------------------------------------
+*/
+
+.adn-style .icon-tip-info::after {
+   content: "\f348" !important;
+   color: #18ace6;
+}
+
+.adn-style .icon-tip-error::after {
+   content: "\f534" !important;
+   color: #a44;
+}
+
+.adn-style .icon-tip-success::after {
+   content: "\f12a" !important;
+   color: #409e48;
+}
+
+.adn-style .icon-tip-warning::after {
+   content: "\f12a" !important;
+   color: #ffb900;
+}
+
+
+
+
+/*
+|--------------------------------------------------------------------------
+| MISC
+|--------------------------------------------------------------------------
+*/
+
+.adn-style .ajax-response.error,/*<--- this will be removed, do not use it anymore*/
+.adn-style .text-color--error *,
+.adn-style .text-color--error{
+   color: #a30000;
+}
+.adn-style .ajax-response.success,/*<--- this will be removed, do not use it anymore*/
+.adn-style .text-color--success *,
+.adn-style .text-color--success{
+   color: #68BD6D;
+}
+
+.adn-style .box-headline{
+   font-size: 20px;
+   line-height: 30px;
+   font-weight: bold;
+   margin: 0 0 10px;
+   padding: 0 0 10px;
+   border-bottom: 1px solid #ddd;
+   color: #1d2327;
+}
+   .adn-style .box-headline > .dashicons{
+      line-height: 30px;
+      height: 30px;
+   }
+
+.manage-column.column-adn_product_type,
+.manage-column.column-adn_product_status{
+   width: 11%;
+}
+
+
+.adn-tb-label-status {
+   display: -webkit-inline-box;
+   display: inline-flex;
+   line-height: 2.5em;
+   color: #777;
+   background: #e5e5e5;
+   border-radius: 4px;
+   border-bottom: 1px solid rgba(0,0,0,.05);
+   margin: -0.25em 0;
+   cursor: inherit!important;
+   white-space: nowrap;
+   max-width: 100%;
+}
+   .adn-tb-label-status>span {
+      margin: 0 1em;
+      overflow: hidden;
+      text-overflow: ellipsis;
+   }
+   .adn-tb-label-status.success {
+      background: #c6e1c6;
+      color: #5b841b;
+   }
+   .adn-tb-label-status.error {
+      background: #eba3a3;
+      color: #761919;
+   }
+   .adn-tb-label-status.warning {
+      background: #f8dda7;
+      color: #94660c;
+   }
+   .adn-tb-label-status.info {
+      background: #c8d7e1;
+      color: #2e4453;
+   }

@@ -1,0 +1,15 @@
+{
+   "name": "woosa/core",
+   "version": "2.1.1",
+   "type": "library",
+   "require": {
+      "woosa/abstract": "1.*",
+      "woosa/dependency": "1.*",
+      "woosa/interface": "1.*",
+      "woosa/logger": "3.*",
+      "woosa/option": "1.*",
+      "woosa/request": "1.*",
+      "woosa/third-party": "1.*",
+      "woosa/util": "1.*"
+   }
+}

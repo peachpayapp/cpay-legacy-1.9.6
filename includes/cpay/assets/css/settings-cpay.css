@@ -1,0 +1,55 @@
+.adn-style .sidebar-logo img {
+	height: 56px;
+}
+
+.adn-style .content-header .content-header-icon,
+.adn-style .sidebar-menu .menu-item-icon::before {
+	background-color: #0d2743;
+}
+
+.adn-style .content-header .content-header-icon svg,
+.adn-style .sidebar-menu .menu-item-icon svg {
+	fill: #fff;
+}
+
+.adn-style .sidebar-menu .menu-item:hover,
+.adn-style .sidebar-menu .menu-item.active {
+	border-left-color: #ff6a5b;
+}
+
+.adn-style .sidebar-menu .menu-item-name,
+.adn-style .content-body .page-content h2 {
+	color: #0d2743;
+}
+
+.adn-style .toggle-wrap .checkbox:checked + .switch {
+	background-color: #ff6a5b;
+}
+
+.adn-style .page-content .button.button-primary,
+.adn-style .page-content .button.button-secondary {
+	color: #fff;
+	background: #ff6a5b;
+	border-color: #ff6a5b;
+}
+
+.adn-style .page-content .button.button-primary:hover,
+.adn-style .page-content .button.button-secondary:hover {
+	background: #ff8074;
+	border-color: #ff8074;
+}
+
+.adn-style .page-content .button {
+	color: #0d2743;
+	border-color: #0d2743;
+}
+
+.adn-style .page-content .button:hover {
+	color: #fff;
+	border-color: #0d2743;
+	background: #0d2743;
+}
+
+.woocommerce table.form-table .forminp {
+	display: revert;
+}

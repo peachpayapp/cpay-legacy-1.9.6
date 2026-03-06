@@ -1,0 +1,372 @@
+{
+    "packages": [
+        {
+            "name": "viison/address-splitter",
+            "version": "0.3.4",
+            "version_normalized": "0.3.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pickware/address-splitter.git",
+                "reference": "ebad709276aaadce94a3a1fe2507aa38a467a94a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pickware/address-splitter/zipball/ebad709276aaadce94a3a1fe2507aa38a467a94a",
+                "reference": "ebad709276aaadce94a3a1fe2507aa38a467a94a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "time": "2019-10-24T09:23:47+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "VIISON\\AddressSplitter\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "VIISON GmbH",
+                    "email": "contact@viison.com"
+                }
+            ],
+            "description": "Tries to split an address line into street name, house number and other additional information like building, apartment information etc.",
+            "support": {
+                "issues": "https://github.com/pickware/address-splitter/issues",
+                "source": "https://github.com/pickware/address-splitter/tree/0.3.4"
+            },
+            "install-path": "../viison/address-splitter"
+        },
+        {
+            "name": "woosa/abstract",
+            "version": "1.1.0",
+            "version_normalized": "1.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:woosa/wp-plugin-modules/abstract.git",
+                "reference": "c8416cab12fabee0881d4093a746f9138568beeb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/41352210/packages/composer/archives/woosa/abstract.zip?sha=c8416cab12fabee0881d4093a746f9138568beeb",
+                "reference": "c8416cab12fabee0881d4093a746f9138568beeb",
+                "shasum": ""
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "install-path": "../woosa/abstract"
+        },
+        {
+            "name": "woosa/authorization",
+            "version": "3.1.1",
+            "version_normalized": "3.1.1.0",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:woosa/wp-plugin-modules/authorization.git",
+                "reference": "711f84db2103b8000464af9d28370d32b681d4ad"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/29545946/packages/composer/archives/woosa/authorization.zip?sha=711f84db2103b8000464af9d28370d32b681d4ad",
+                "reference": "711f84db2103b8000464af9d28370d32b681d4ad",
+                "shasum": ""
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "install-path": "../woosa/authorization"
+        },
+        {
+            "name": "woosa/category-selection",
+            "version": "1.0.3",
+            "version_normalized": "1.0.3.0",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:woosa/wp-plugin-modules/category-selection.git",
+                "reference": "ba11a5b7893d30a4446281f30617dc9aacc13193"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/27533381/packages/composer/archives/woosa/category-selection.zip?sha=ba11a5b7893d30a4446281f30617dc9aacc13193",
+                "reference": "ba11a5b7893d30a4446281f30617dc9aacc13193",
+                "shasum": ""
+            },
+            "require": {
+                "woosa/util": "1.*"
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "install-path": "../woosa/category-selection"
+        },
+        {
+            "name": "woosa/core",
+            "version": "2.1.1",
+            "version_normalized": "2.1.1.0",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:woosa/wp-plugin-modules/core.git",
+                "reference": "c91ba92684879e7460610010ea1958dcd2d73a9c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/26336044/packages/composer/archives/woosa/core.zip?sha=c91ba92684879e7460610010ea1958dcd2d73a9c",
+                "reference": "c91ba92684879e7460610010ea1958dcd2d73a9c",
+                "shasum": ""
+            },
+            "require": {
+                "woosa/abstract": "1.*",
+                "woosa/dependency": "1.*",
+                "woosa/interface": "1.*",
+                "woosa/logger": "3.*",
+                "woosa/option": "1.*",
+                "woosa/request": "1.*",
+                "woosa/third-party": "1.*",
+                "woosa/util": "1.*"
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "install-path": "../woosa/core"
+        },
+        {
+            "name": "woosa/dependency",
+            "version": "1.2.0",
+            "version_normalized": "1.2.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:woosa/wp-plugin-modules/dependency.git",
+                "reference": "6eaf5b28c3b24a9b19f9c6e947e42d11de1f6775"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/26335207/packages/composer/archives/woosa/dependency.zip?sha=6eaf5b28c3b24a9b19f9c6e947e42d11de1f6775",
+                "reference": "6eaf5b28c3b24a9b19f9c6e947e42d11de1f6775",
+                "shasum": ""
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "install-path": "../woosa/dependency"
+        },
+        {
+            "name": "woosa/field-generator",
+            "version": "1.5.1",
+            "version_normalized": "1.5.1.0",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:woosa/wp-plugin-modules/field-generator.git",
+                "reference": "3c2fb42e88498bcaa96276959e67fd9a094b1449"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/34259770/packages/composer/archives/woosa/field-generator.zip?sha=3c2fb42e88498bcaa96276959e67fd9a094b1449",
+                "reference": "3c2fb42e88498bcaa96276959e67fd9a094b1449",
+                "shasum": ""
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "install-path": "../woosa/field-generator"
+        },
+        {
+            "name": "woosa/intercom-chat",
+            "version": "1.1.1",
+            "version_normalized": "1.1.1.0",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:woosa/wp-plugin-modules/intercom-chat.git",
+                "reference": "82ab55b638e67acdf52f1205f3058d705d5b05f9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/44797258/packages/composer/archives/woosa/intercom-chat.zip?sha=82ab55b638e67acdf52f1205f3058d705d5b05f9",
+                "reference": "82ab55b638e67acdf52f1205f3058d705d5b05f9",
+                "shasum": ""
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "install-path": "../woosa/intercom-chat"
+        },
+        {
+            "name": "woosa/interface",
+            "version": "1.4.0",
+            "version_normalized": "1.4.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:woosa/wp-plugin-modules/interface.git",
+                "reference": "8b5ca2a738ec59159e281e5ea66d99f2d1256f4e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/40509279/packages/composer/archives/woosa/interface.zip?sha=8b5ca2a738ec59159e281e5ea66d99f2d1256f4e",
+                "reference": "8b5ca2a738ec59159e281e5ea66d99f2d1256f4e",
+                "shasum": ""
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "install-path": "../woosa/interface"
+        },
+        {
+            "name": "woosa/license",
+            "version": "2.1.0",
+            "version_normalized": "2.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:woosa/wp-plugin-modules/license.git",
+                "reference": "89b2664f98431dd724103164764a594b88ea48e9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/26272760/packages/composer/archives/woosa/license.zip?sha=89b2664f98431dd724103164764a594b88ea48e9",
+                "reference": "89b2664f98431dd724103164764a594b88ea48e9",
+                "shasum": ""
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "install-path": "../woosa/license"
+        },
+        {
+            "name": "woosa/logger",
+            "version": "3.1.0",
+            "version_normalized": "3.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:woosa/wp-plugin-modules/logger.git",
+                "reference": "83d168d128616009dd9b1064fe59ae5deb3edcb2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/26295599/packages/composer/archives/woosa/logger.zip?sha=83d168d128616009dd9b1064fe59ae5deb3edcb2",
+                "reference": "83d168d128616009dd9b1064fe59ae5deb3edcb2",
+                "shasum": ""
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "install-path": "../woosa/logger"
+        },
+        {
+            "name": "woosa/option",
+            "version": "1.0.1",
+            "version_normalized": "1.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:woosa/wp-plugin-modules/option.git",
+                "reference": "f6b4cf77b33181815ea03c80727caac6ff6147d9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/27128455/packages/composer/archives/woosa/option.zip?sha=f6b4cf77b33181815ea03c80727caac6ff6147d9",
+                "reference": "f6b4cf77b33181815ea03c80727caac6ff6147d9",
+                "shasum": ""
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "install-path": "../woosa/option"
+        },
+        {
+            "name": "woosa/request",
+            "version": "1.6.0",
+            "version_normalized": "1.6.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:woosa/wp-plugin-modules/request.git",
+                "reference": "156edfb0dd69a71135052659f9e8236923e33c23"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/26346009/packages/composer/archives/woosa/request.zip?sha=156edfb0dd69a71135052659f9e8236923e33c23",
+                "reference": "156edfb0dd69a71135052659f9e8236923e33c23",
+                "shasum": ""
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "install-path": "../woosa/request"
+        },
+        {
+            "name": "woosa/settings",
+            "version": "2.3.0",
+            "version_normalized": "2.3.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:woosa/wp-plugin-modules/settings.git",
+                "reference": "b45443a382a4cdb1fb293592f6af3f0274fa78ac"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/26430000/packages/composer/archives/woosa/settings.zip?sha=b45443a382a4cdb1fb293592f6af3f0274fa78ac",
+                "reference": "b45443a382a4cdb1fb293592f6af3f0274fa78ac",
+                "shasum": ""
+            },
+            "require": {
+                "woosa/field-generator": "1.*"
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "install-path": "../woosa/settings"
+        },
+        {
+            "name": "woosa/third-party",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:woosa/wp-plugin-modules/third-party.git",
+                "reference": "4d2285f51bade491a3d0dca3111005d4869504b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/26331882/packages/composer/archives/woosa/third-party.zip?sha=4d2285f51bade491a3d0dca3111005d4869504b8",
+                "reference": "4d2285f51bade491a3d0dca3111005d4869504b8",
+                "shasum": ""
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "install-path": "../woosa/third-party"
+        },
+        {
+            "name": "woosa/tools",
+            "version": "2.1.0",
+            "version_normalized": "2.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:woosa/wp-plugin-modules/tools.git",
+                "reference": "fc95b3bd4436dbcbea9e7455a86b5a094abfa0ed"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/26330882/packages/composer/archives/woosa/tools.zip?sha=fc95b3bd4436dbcbea9e7455a86b5a094abfa0ed",
+                "reference": "fc95b3bd4436dbcbea9e7455a86b5a094abfa0ed",
+                "shasum": ""
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "install-path": "../woosa/tools"
+        },
+        {
+            "name": "woosa/util",
+            "version": "1.14.1",
+            "version_normalized": "1.14.1.0",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:woosa/wp-plugin-modules/util.git",
+                "reference": "ef0eac95cf4ac3749617c4a297b75ea770cea318"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/26332117/packages/composer/archives/woosa/util.zip?sha=ef0eac95cf4ac3749617c4a297b75ea770cea318",
+                "reference": "ef0eac95cf4ac3749617c4a297b75ea770cea318",
+                "shasum": ""
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "install-path": "../woosa/util"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}

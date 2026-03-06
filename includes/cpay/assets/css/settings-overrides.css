@@ -1,0 +1,3 @@
+.woocommerce table.form-table td.forminp {
+  display: revert;
+}

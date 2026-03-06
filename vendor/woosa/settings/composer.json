@@ -1,0 +1,8 @@
+{
+	"name": "woosa/settings",
+	"version": "2.3.0",
+	"type": "library",
+	"require": {
+		"woosa/field-generator": "1.*"
+	}
+}
