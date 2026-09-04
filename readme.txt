@@ -2,7 +2,7 @@
 Tags: online payments, credit card
 Requires at least: 5.0
 Tested up to: 6.8.2
-Stable tag: 1.9.6
+Stable tag: 1.9.7-rc-1
 Requires PHP: 7.4
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -57,6 +57,11 @@ Every update comes with fixes and improvements.
 
 
 == Changelog ==
+
+### 1.9.7-rc-1 - 2026-09-04
+
+* Fixed a PHP fatal on Checkout and My Account when a stored card has no supportedShopperInteractions
+* Fixed a bug where subscription renewals stayed in Pending payment when the recurring token was missing or invalid
 
 ### 1.9.6 - 2025-10-01
 

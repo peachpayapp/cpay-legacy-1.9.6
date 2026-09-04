@@ -3,7 +3,7 @@
  * Plugin Name: ConvesioPay
  * Plugin URI: https://convesiopay.com
  * Description: Allows WooCommerce to take payments via ConvesioPay platform.
- * Version: 1.9.6
+ * Version: 1.9.7-rc-1
  * Author: ConvesioPay
  * Author URI:  https://convesiopay.com
  * Text Domain: wc-convesiopay
@@ -25,7 +25,7 @@ defined( 'ABSPATH' ) || exit;
 
 define(__NAMESPACE__ . '\PREFIX', 'adn');
 
-define(__NAMESPACE__ . '\VERSION', '1.9.6');
+define(__NAMESPACE__ . '\VERSION', '1.9.7-rc-1');
 
 define(__NAMESPACE__ . '\NAME', 'ConvesioPay');
 

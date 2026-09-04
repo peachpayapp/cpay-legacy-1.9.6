@@ -162,7 +162,7 @@ class Service_Checkout extends Service{
       $list   = $this->get_stored_payment_methods($country, $amount);
 
       foreach($list as $item){
-         if(isset($item['lastFour']) && in_array('Ecommerce', $item['supportedShopperInteractions'])){
+         if(isset($item['lastFour']) && is_array($item['supportedShopperInteractions']) && in_array('Ecommerce', $item['supportedShopperInteractions'])){
             $result[] = $item;
          }
       }
