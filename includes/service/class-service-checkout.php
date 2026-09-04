@@ -82,7 +82,7 @@ class Service_Checkout extends Service{
             'headers'    => $this->headers(),
             'body'       => json_encode($payload),
             'authorized' => $this->is_configured()
-         ])->send('https://api-qa.convesiopay.com/payment/v1/wc-plugin/payment-methods');
+         ])->send(Service_Util::get_payment_api_url('payment/v1/wc-plugin/payment-methods'));
 
          if($response->status == 200){
 
@@ -162,7 +162,7 @@ class Service_Checkout extends Service{
       $list   = $this->get_stored_payment_methods($country, $amount);
 
       foreach($list as $item){
-         if(isset($item['lastFour']) && in_array('Ecommerce', $item['supportedShopperInteractions'])){
+         if(isset($item['lastFour']) && is_array($item['supportedShopperInteractions']) && in_array('Ecommerce', $item['supportedShopperInteractions'])){
             $result[] = $item;
          }
       }
@@ -211,7 +211,7 @@ class Service_Checkout extends Service{
          'headers' => $this->headers(),
          'timeout' => 15,
          'body'    => json_encode($payload)
-      ])->send('https://api-qa.convesiopay.com/payment/v1/wc-plugin/payments');
+      ])->send(Service_Util::get_payment_api_url('payment/v1/wc-plugin/payments'));
 
    }
 
@@ -229,7 +229,7 @@ class Service_Checkout extends Service{
          'headers' => $this->headers(),
          'timeout' => 15,
          'body'    => json_encode($payload)
-      ])->send('https://api-qa.convesiopay.com/payment/v1/wc-plugin/payment-details');
+      ])->send(Service_Util::get_payment_api_url('payment/v1/wc-plugin/payment-details'));
 
    }
 
@@ -255,7 +255,7 @@ class Service_Checkout extends Service{
       return Request::POST([
          'headers' => $this->headers(),
          'body'    => json_encode($payload)
-      ])->send('https://api-qa.convesiopay.com/payment/v1/wc-plugin/refunds?reference=' . $reference);
+      ])->send(Service_Util::get_payment_api_url('payment/v1/wc-plugin/refunds?reference=' . $reference));
 
    }
 
@@ -276,7 +276,7 @@ class Service_Checkout extends Service{
       return Request::POST([
          'headers' => $this->headers(),
          'body'    => json_encode($payload)
-      ])->send('https://api-qa.convesiopay.com/payment/v1/wc-plugin/cancels?reference=' . $reference);
+      ])->send(Service_Util::get_payment_api_url('payment/v1/wc-plugin/cancels?reference=' . $reference));
 
    }
 
@@ -302,7 +302,7 @@ class Service_Checkout extends Service{
       return Request::POST([
          'headers' => $this->headers(),
          'body'    => json_encode($payload)
-      ])->send('https://api-qa.convesiopay.com/payment/v1/wc-plugin/captures?reference=' . $reference);
+      ])->send(Service_Util::get_payment_api_url('payment/v1/wc-plugin/captures?reference=' . $reference));
 
    }
 

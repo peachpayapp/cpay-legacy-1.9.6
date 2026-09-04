@@ -75,7 +75,7 @@ class Authorization_Hook implements Interface_Hook{
             'shopperReference' => Service_Util::get_shopper_reference(),
             'channel'          => 'Web',
          ])
-      ])->send('https://api-qa.convesiopay.com/payment/v1/wc-plugin/payment-methods');
+      ])->send(Service_Util::get_payment_api_url('payment/v1/wc-plugin/payment-methods'));
 
       if($response->status == 200){
 

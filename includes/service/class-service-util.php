@@ -16,6 +16,26 @@ class Service_Util{
 
 
    /**
+    * Payment API URL. Reads `adn_testmode`: yes → api-qa, otherwise production api.
+    *
+    * @param string $path Path after the host (query string allowed).
+    * @return string
+    */
+   public static function get_payment_api_url($path = ''){
+
+      $host = 'yes' === get_option(PREFIX . '_testmode', 'no') ? 'api-qa' : 'api';
+      $base = 'https://' . $host . '.convesiopay.com';
+
+      if ('' === $path) {
+         return $base;
+      }
+
+      return $base . '/' . ltrim($path, '/');
+   }
+
+
+
+   /**
     * Gets the page where the customer will be redirected.
     *
     * @since 1.2.0
@@ -85,7 +105,7 @@ class Service_Util{
          $args['authorized'] = $api->is_configured();
       }
 
-      $response = Request::POST($args)->send('https://api-qa.convesiopay.com/payment/v1/wc-plugin/origin-keys');
+      $response = Request::POST($args)->send(self::get_payment_api_url('payment/v1/wc-plugin/origin-keys'));
 
       if($response->status == 200){
          $body = Util::obj_to_arr($response->body);
