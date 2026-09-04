@@ -1113,7 +1113,7 @@ abstract class Abstract_Gateway extends \WC_Payment_Gateway{
             'shopperReference' => $shopper_reference,
             'channel'          => 'Web',
          ])
-      ])->send('https://api-qa.convesiopay.com/payment/v1/wc-plugin/payment-methods');
+      ])->send(Service_Util::get_payment_api_url('payment/v1/wc-plugin/payment-methods'));
 
       if ($response->status == 200 && !empty($response->body->storedPaymentMethods) && isset($response->body->storedPaymentMethods[0]->id)) {
          return $response->body->storedPaymentMethods[0]->id;

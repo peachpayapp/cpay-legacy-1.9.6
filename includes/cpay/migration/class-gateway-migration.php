@@ -580,10 +580,7 @@ class Gateway_Migration {
      */
     public static function get_convesiopay_stored_payment_methods($convesiopay_customer_id) {
         $api = new \Woosa\Adyen\Service();
-        $test_mode = 'yes' == get_option( 'adn_testmode' );
-
-        $payment_methods_host = $test_mode ? 'api-qa' : 'api';
-        $payment_methods_url = 'https://' . $payment_methods_host . '.convesiopay.com/payment/v1/wc-plugin/payment-methods';
+        $payment_methods_url = \Woosa\Adyen\Service_Util::get_payment_api_url('payment/v1/wc-plugin/payment-methods');
         
         $payload = [
             'merchantAccount' => $api->get_merchant(),
